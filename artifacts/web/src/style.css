@@ -909,13 +909,15 @@ footer {
 
     /* Tarjetas de redes sociales */
     .redes-sociales {
-        grid-template-columns: 1fr;
+        flex-direction: column;
         width: 100%;
         gap: 20px;
+        align-items: center;
     }
 
     .redes-sociales .categoria {
         width: 100%;
+        max-width: none;
         box-sizing: border-box;
     }
 
