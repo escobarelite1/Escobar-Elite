@@ -16,10 +16,22 @@ if (Number.isNaN(port) || port <= 0) {
 export default defineConfig({
   base: basePath,
   root: import.meta.dirname,
+
   build: {
     outDir: 'dist/public',
     emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        index: 'index.html',
+        camisetas: 'camisetas.html',
+        calzado: 'calzado.html',
+        ropa: 'ropa.html',
+        accesorios: 'accesorios.html',
+        contacto: 'contacto.html',
+      },
+    },
   },
+
   server: {
     port,
     strictPort: true,
@@ -27,6 +39,7 @@ export default defineConfig({
     allowedHosts: true,
     fs: { strict: true },
   },
+
   preview: {
     port,
     host: '0.0.0.0',
