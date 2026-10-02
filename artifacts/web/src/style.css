@@ -901,3 +901,27 @@ footer {
     }
 
 }
+/* ================================
+   AJUSTES PARA CELULARES
+================================ */
+
+@media (max-width: 600px) {
+
+    /* Tarjetas de redes sociales */
+    .redes-sociales {
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .redes-sociales .categoria {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Quitar línea debajo del encabezado */
+    header {
+        border-bottom: none;
+    }
+
+}
