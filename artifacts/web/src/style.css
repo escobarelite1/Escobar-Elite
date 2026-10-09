@@ -256,9 +256,10 @@ nav a:hover {
 /* ================================
    VOLVER AL INICIO
 ================================ */
+
 .volver {
     position: sticky;
-    top: 75px;
+    top: 0;
     z-index: 90;
     display: flex;
     align-items: center;
@@ -275,6 +276,7 @@ nav a:hover {
     border-bottom: 1px solid #d8d8d8;
     border-radius: 0;
 }
+
 
 .icono-volver {
     width: 24px;
@@ -1237,14 +1239,14 @@ footer {
 /* ======================================
    BOTON VOLVER AL INICIO
 ====================================== */
-
 @media (max-width: 600px) {
     .volver {
-        top: 100px;
+        top: 74px;
         width: calc(100% + 32px);
-        margin: -32px 0 22px -16px;
+        margin: -24px 0 22px -16px;
         padding: 10px 16px;
         font-size: 15px;
     }
 }
+
 
