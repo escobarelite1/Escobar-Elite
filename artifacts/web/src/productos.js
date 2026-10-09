@@ -1039,23 +1039,28 @@
         // ACCESORIOS - BALONES
         // =========================
 
+       
         {
             id: 130,
             nombre: "Golty Euforia 2.0 Professional",
+            palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty",
             categoria: "accesorios",
             subcategoria: "futbol",
             imagen: "/imagenes/accesorios/futbol/balones/Accesorios 20.JPG"
         },
+
         {
             id: 131,
             nombre: "Golty El Dorado Professional",
+            palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty",
             categoria: "accesorios",
             subcategoria: "futbol",
             imagen: "/imagenes/accesorios/futbol/balones/Accesorios 21.JPG"
         },
         {
             id: 132,
-            nombre: "Golty Origen Professional",
+            nombre: "Golty Origen Professional", 
+            palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty",
             categoria: "accesorios",
             subcategoria: "futbol",
             imagen: "/imagenes/accesorios/futbol/balones/Accesorios 22.JPG"
@@ -1063,6 +1068,7 @@
         {
             id: 133,
             nombre: "Golty Fusión",
+            palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty",
             categoria: "accesorios",
             subcategoria: "futbol",
             imagen: "/imagenes/accesorios/futbol/balones/Accesorios 23.JPG"
@@ -1070,20 +1076,23 @@
         {
             id: 134,
             nombre: "Golty Forza Professional",
+            palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty", 
             categoria: "accesorios",
             subcategoria: "futbol",
             imagen: "/imagenes/accesorios/futbol/balones/Accesorios 24.JPG"
         },
         {
             id: 135,
-            nombre: "Golty Invictus Professional",
+            nombre: "Golty Invictus Professional", 
+            palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty",
             categoria: "accesorios",
             subcategoria: "futbol",
             imagen: "/imagenes/accesorios/futbol/balones/Accesorios 25.JPG"
         },
         {
             id: 136,
-            nombre: "Golty Traditional Professional",
+            nombre: "Golty Traditional Professional", 
+            palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty",
             categoria: "accesorios",
             subcategoria: "futbol",
             imagen: "/imagenes/accesorios/futbol/balones/Accesorios 26.JPG"
@@ -1091,6 +1100,7 @@
         {
             id: 137,
             nombre: "Golty Latir – Rosa",
+            palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty",
             categoria: "accesorios",
             subcategoria: "futbol",
             imagen: "/imagenes/accesorios/futbol/balones/Accesorios 27.JPG"
@@ -1098,6 +1108,7 @@
         {
             id: 138,
             nombre: "Golty Latir – Azul y amarillo",
+            palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty",
             categoria: "accesorios",
             subcategoria: "futbol",
             imagen: "/imagenes/accesorios/futbol/balones/Accesorios 28.JPG"
@@ -1105,6 +1116,7 @@
         {
             id: 139,
             nombre: "Golty Latir – Blanco y dorado",
+            palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty",
             categoria: "accesorios",
             subcategoria: "futbol",
             imagen: "/imagenes/accesorios/futbol/balones/Accesorios 29.JPG"
@@ -1112,6 +1124,7 @@
         {
             id: 140,
             nombre: "Golty Latir – Multicolor",
+            palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty",
             categoria: "accesorios",
             subcategoria: "futbol",
             imagen: "/imagenes/accesorios/futbol/balones/Accesorios 30.JPG"
