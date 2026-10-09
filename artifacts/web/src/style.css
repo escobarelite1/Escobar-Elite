@@ -1,6 +1,9 @@
-/* ================================
-   CONFIGURACIÓN GENERAL
-================================ */
+
+/* =========================================
+   ESCOBAR ÉLITE — HOJA DE ESTILOS PRINCIPAL
+   ========================================= */
+
+/* 1. CONFIGURACIÓN GENERAL */
 
 * {
     box-sizing: border-box;
@@ -14,43 +17,44 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
-    color: #111;
+    color: #111111;
 }
 
 a {
     color: inherit;
 }
 
+img {
+    max-width: 100%;
+}
 
-/* ================================
-   ENCABEZADO
-================================ */
+
+/* 2. ENCABEZADO Y NAVEGACIÓN */
 
 header {
-    background-color: #ffffff;
-    padding: 16px 5%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #d8d8d8;
     position: sticky;
     top: 0;
     z-index: 100;
-}
-
-.logo {
-    font-size: 25px;
-    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 16px 5%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #d8d8d8;
 }
 
 .logo img {
+    display: block;
     width: 120px;
     height: auto;
-    display: block;
 }
 
 nav {
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
     gap: 12px;
 }
 
@@ -59,84 +63,43 @@ nav a {
     padding: 9px 18px;
     border: 1px solid #111111;
     border-radius: 7px;
+    background-color: #ffffff;
+    color: #111111;
     text-decoration: none;
     font-weight: 600;
-    color: #111111;
-    background-color: #ffffff;
-    transition: background-color 0.2s, color 0.2s, transform 0.2s;
+    transition: background-color 0.2s, color 0.2s;
 }
 
 nav a:hover {
     background-color: #111111;
     color: #ffffff;
-    transform: translateY(-2px);
 }
 
 
-/* ================================
-   BOTONES
-================================ */
+/* 3. BOTONES */
 
 .boton {
     display: inline-block;
-    background-color: #111;
+    padding: 13px 24px;
+    border: 1px solid #111111;
+    border-radius: 7px;
+    background-color: #111111;
     color: #ffffff;
     text-decoration: none;
-    padding: 13px 24px;
-    border-radius: 7px;
     font-weight: bold;
-    border: 1px solid #111;
-    transition: transform 0.2s, background-color 0.2s, color 0.2s;
+    transition: background-color 0.2s, color 0.2s;
 }
 
 .boton:hover {
     background-color: #c9c9c9;
-    color: #111;
     border-color: #c9c9c9;
-    transform: translateY(-2px);
-}
-
-
-/* ================================
-   INICIO
-================================ */
-
-.hero {
-    min-height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 80px 20px;
-    background-image:
-        linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-        url("/imagenes/hero/Hero.jpg");
-    background-size: cover;
-    background-position: center;
-    color: #ffffff;
-}
-
-.hero-contenido {
-    max-width: 800px;
-}
-
-.hero h1 {
-    font-size: 48px;
-    line-height: 1.15;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 20px;
-    line-height: 1.6;
-    margin-bottom: 35px;
-    color: #d8d8d8;
+    color: #111111;
 }
 
 .hero .boton {
     background-color: #ffffff;
-    color: #111111;
     border-color: #ffffff;
+    color: #111111;
 }
 
 .hero .boton:hover {
@@ -145,140 +108,99 @@ nav a:hover {
 }
 
 
-/* ================================
-   SECCIONES
-================================ */
+/* 4. BANNER PRINCIPAL */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    padding: 80px 20px;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+        url("/imagenes/hero/Hero.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hero-contenido {
+    max-width: 800px;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 1.15;
+}
+
+.hero p {
+    margin-bottom: 35px;
+    color: #d8d8d8;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+/* 5. SECCIONES Y TÍTULOS */
 
 .seccion {
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     padding: 80px 30px;
 }
 
 .seccion h2,
 .informacion h2 {
-    text-align: center;
-    font-size: 34px;
     margin-bottom: 12px;
+    font-size: 34px;
+    text-align: center;
 }
 
 .subtitulo {
-    text-align: center;
+    margin-bottom: 45px;
     color: #666666;
     font-size: 17px;
-    margin-bottom: 45px;
-}
-
-
-/* ================================
-   CATEGORÍAS
-================================ */
-
-.categorias {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-}
-
-.categoria {
-    background-color: #ffffff;
-    padding: 30px 20px;
     text-align: center;
-    text-decoration: none;
-    border-radius: 12px;
-    border: 1px solid #d8d8d8;
-    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
 }
 
-.categoria:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
-    border-color: #999999;
+.titulo-categoria {
+    margin-top: 0;
 }
 
-.icono-categoria {
-    height: 80px;
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.titulo-categoria + .subtitulo {
+    margin-top: 20px;
 }
 
-.icono-categoria img {
-    width: 80px;
-    height: 80px;
-    object-fit: contain;
-    display: block;
-}
-/* ================================
-   ICONOS DE REDES SOCIALES
-================================ */
 
-.icono-categoria img[alt="WhatsApp"] {
-    width: 65px;
-    height: 65px;
-}
+/* 6. BARRA VOLVER AL INICIO */
 
-.icono-categoria img[alt="Instagram"] {
-    width: 65px;
-    height: 65px;
-}
-
-.icono-categoria img[alt="TikTok"] {
-    width: 95px;
-    height: 95px;
-}
-/* ================================
-   TARJETAS DE REDES SOCIALES
-================================ */
-
-.redes-sociales {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.redes-sociales .categoria {
-    width: 300px;
-}
-.categoria h3 {
-    margin: 10px 0;
-    font-size: 20px;
-}
-
-.categoria p {
-    margin: 0;
-    color: #666666;
-    line-height: 1.5;
-}
-/* ================================
-   VOLVER AL INICIO
-================================ */
-
-.volver {
+.barra-volver {
     position: sticky;
     top: 0;
-    z-index: 90;
+    z-index: 99;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.barra-volver .volver {
     display: flex;
     align-items: center;
     gap: 10px;
-    width: calc(100% + 60px);
-    margin: -30px 0 25px -30px;
-    padding: 14px 30px;
-    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 12px 5%;
     background-color: #f5f5f5;
     color: #111111;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
-    border-bottom: 1px solid #d8d8d8;
-    border-radius: 0;
 }
 
-
 .icono-volver {
+    flex-shrink: 0;
     width: 24px;
     height: 24px;
     fill: none;
@@ -293,13 +215,169 @@ nav a:hover {
     transform: translateX(-4px);
 }
 
-.volver:hover {
-    opacity: 0.7;
+/* La sección de categoría empieza más cerca de la barra */
+.barra-volver + .seccion {
+    padding-top: 28px;
 }
 
-/* ================================
-   CATÁLOGO
-================================ */
+
+/* 7. CATEGORÍAS */
+
+.categorias {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.categoria {
+    padding: 30px 20px;
+    border: 1px solid #d8d8d8;
+    border-radius: 12px;
+    background-color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.categoria:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
+}
+
+.icono-categoria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.icono-categoria img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.icono-categoria img[alt="WhatsApp"],
+.icono-categoria img[alt="Instagram"] {
+    width: 65px;
+    height: 65px;
+}
+
+.icono-categoria img[alt="TikTok"] {
+    width: 95px;
+    height: 95px;
+}
+
+.categoria h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.categoria p {
+    margin: 0;
+    color: #666666;
+    line-height: 1.5;
+}
+
+
+/* 8. REDES SOCIALES */
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.redes-sociales .categoria {
+    width: 300px;
+}
+
+
+/* 9. BUSCADORES */
+
+.buscador-inicio {
+    display: flex;
+    justify-content: center;
+    padding: 28px 20px 0;
+}
+
+.buscador {
+    position: relative;
+    width: 100%;
+    max-width: 650px;
+}
+
+.buscador input {
+    width: 100%;
+    min-height: 54px;
+    padding: 14px 20px 14px 48px;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    outline: none;
+    background-color: #ffffff;
+    color: #111111;
+    font-size: 16px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.buscador input::placeholder {
+    color: #888888;
+}
+
+.buscador input:focus {
+    border-color: #111111;
+    box-shadow: 0 0 0 2px rgba(17, 17, 17, 0.08);
+}
+
+.icono-busqueda {
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+    color: #111111;
+    font-size: 24px;
+    line-height: 1;
+    pointer-events: none;
+}
+
+.buscador-categoria {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 30px;
+    padding: 0 20px;
+}
+
+
+/* 10. AYUDA PARA ENCONTRAR PRODUCTOS */
+
+.ayuda-catalogo {
+    max-width: 850px;
+    margin: 20px auto 40px;
+    padding: 24px 25px;
+    text-align: center;
+}
+
+.ayuda-catalogo h3 {
+    margin: 0 0 12px;
+    color: #111111;
+    font-size: 22px;
+    letter-spacing: -0.3px;
+}
+
+.ayuda-catalogo p {
+    max-width: 700px;
+    margin: 0 auto 22px;
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* 11. CATÁLOGO Y FILTROS */
 
 .catalogo {
     background-color: #f5f5f5;
@@ -307,18 +385,17 @@ nav a:hover {
 
 .productos {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 25px;
 }
-/* FILTROS DE CATEGORÍA */
 
 .filtros {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 12px;
     margin: 35px auto 40px;
-    flex-wrap: wrap;
 }
 
 .filtro {
@@ -330,13 +407,12 @@ nav a:hover {
     font-size: 15px;
     font-weight: 600;
     cursor: pointer;
-    transition: background-color 0.2s, color 0.2s, transform 0.2s;
+    transition: background-color 0.2s, color 0.2s;
 }
 
 .filtro:hover:not(:disabled) {
     background-color: #111111;
     color: #ffffff;
-    transform: translateY(-2px);
 }
 
 .filtro.activo {
@@ -349,15 +425,33 @@ nav a:hover {
     cursor: not-allowed;
 }
 
-/* ================================
-   PRODUCTOS
-================================ */
+.sin-resultados {
+    grid-column: 1 / -1;
+    width: 100%;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.sin-resultados h3 {
+    margin: 0 0 10px;
+    color: #111111;
+    font-size: 22px;
+}
+
+.sin-resultados p {
+    margin: 0;
+    color: #666666;
+    font-size: 16px;
+}
+
+
+/* 12. TARJETAS DE PRODUCTOS */
 
 .producto {
-    background-color: #ffffff;
-    border-radius: 12px;
     overflow: hidden;
     border: 1px solid #d8d8d8;
+    border-radius: 12px;
+    background-color: #ffffff;
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -367,19 +461,19 @@ nav a:hover {
 }
 
 .imagen-producto {
-    height: 280px;
-    background-color: #eeeeee;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 280px;
     overflow: hidden;
+    background-color: #eeeeee;
 }
 
 .imagen-producto img {
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: contain;
-    display: block;
 }
 
 .producto-info {
@@ -388,9 +482,9 @@ nav a:hover {
 
 .categoria-producto {
     display: inline-block;
+    margin-bottom: 8px;
     color: #777777;
     font-size: 13px;
-    margin-bottom: 8px;
 }
 
 .producto h3 {
@@ -399,9 +493,9 @@ nav a:hover {
 }
 
 .precio {
+    margin: 0 0 20px;
     font-size: 21px;
     font-weight: bold;
-    margin: 0 0 20px;
 }
 
 .boton-producto {
@@ -410,51 +504,44 @@ nav a:hover {
 }
 
 
-/* ================================
-   ¿CÓMO FUNCIONA?
-================================ */
+/* 13. CÓMO FUNCIONA */
 
 .informacion {
-    background-color: #ffffff;
     padding: 80px 5%;
+    background-color: #ffffff;
 }
 
 .pasos {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 35px;
     max-width: 1000px;
     margin: 45px auto 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 35px;
-}
-.pasos {
-    position: relative;
 }
 
 .pasos::before {
-    content: "";
     position: absolute;
     top: 25px;
-    left: 16.66%;
     right: 16.66%;
+    left: 16.66%;
     height: 1px;
     background-color: #d0d0d0;
+    content: "";
 }
 
 .paso {
     position: relative;
     z-index: 1;
-}
-
-.paso {
     text-align: center;
 }
 
 .paso > span {
-    width: 50px;
-    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 50px;
+    height: 50px;
     margin: 0 auto 20px;
     border-radius: 50%;
     background-color: #111111;
@@ -464,8 +551,8 @@ nav a:hover {
 }
 
 .paso h3 {
-    font-size: 21px;
     margin-bottom: 10px;
+    font-size: 21px;
 }
 
 .paso p {
@@ -473,39 +560,38 @@ nav a:hover {
     line-height: 1.6;
 }
 
-/* ================================
-   INFORMACIÓN DE COMPRA
-================================ */
+
+/* 14. INFORMACIÓN DE COMPRA */
 
 .info-compra {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
     max-width: 1100px;
     margin: 45px auto 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
 }
 
 .info-compra-item {
-    background-color: #f5f5f5;
+    padding: 30px;
     border: 1px solid #d8d8d8;
     border-radius: 12px;
-    padding: 30px;
+    background-color: #f5f5f5;
     text-align: center;
 }
 
 .info-compra-icono {
-    height: 70px;
-    margin-bottom: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 70px;
+    margin-bottom: 15px;
 }
 
 .info-compra-icono img {
+    display: block;
     width: 75px;
     height: 75px;
     object-fit: contain;
-    display: block;
 }
 
 .info-compra-item h3 {
@@ -523,29 +609,32 @@ nav a:hover {
     margin-top: 5px;
 }
 
-/* ================================
-   PIE DE PÁGINA
-================================ */
+.informacion.compra {
+    background-color: #ffffff;
+}
+
+
+/* 15. PIE DE PÁGINA GENERAL */
 
 footer {
+    padding: 60px 5% 25px;
     background-color: #111111;
     color: #ffffff;
-    padding: 60px 5% 25px;
     text-align: left;
 }
 
 .footer-contenido {
-    max-width: 1100px;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    gap: 50px;
     align-items: start;
+    gap: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .footer-marca h3 {
-    font-size: 24px;
     margin: 0 0 10px;
+    font-size: 24px;
 }
 
 .footer-marca p {
@@ -562,8 +651,8 @@ footer {
 
 .footer-columna h4 {
     margin: 0 0 5px;
-    font-size: 16px;
     color: #ffffff;
+    font-size: 16px;
 }
 
 .footer-columna a {
@@ -583,23 +672,25 @@ footer {
 }
 
 .footer-redes a {
-    width: 30px;
-    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 30px;
+    height: 30px;
 }
 
 .footer-redes img {
+    display: block;
     width: 22px;
     height: 22px;
     object-fit: contain;
-    display: block;
 }
+
 .footer-redes img[alt="TikTok"] {
     width: 30px;
     height: 30px;
 }
+
 .footer-inferior {
     max-width: 1100px;
     margin: 45px auto 0;
@@ -614,20 +705,19 @@ footer {
     font-size: 14px;
 }
 
-/* ================================
-   PIE DE PÁGINA - CATEGORÍAS
-================================ */
+
+/* 16. PIE DE PÁGINA DE CATEGORÍAS */
 
 .footer-categoria {
+    padding: 45px 20px 25px;
     background-color: #111111;
     color: #ffffff;
     text-align: center;
-    padding: 45px 20px 25px;
 }
 
 .footer-categoria h3 {
-    font-size: 24px;
     margin: 0 0 10px;
+    font-size: 24px;
 }
 
 .footer-categoria > p {
@@ -650,18 +740,17 @@ footer {
 }
 
 
-/* ================================
-   TABLET
-================================ */
+/* =========================================
+   TABLET Y PANTALLAS MEDIANAS
+   ========================================= */
 
 @media (max-width: 900px) {
-
     .categorias {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .productos {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .pasos {
@@ -669,213 +758,324 @@ footer {
         max-width: 600px;
     }
 
+    .pasos::before {
+        display: none;
+    }
+
     .hero h1 {
         font-size: 40px;
+    }
+
+    .footer-contenido {
+        gap: 30px;
     }
 }
 
 
-/* ================================
+/* =========================================
    CELULAR
-================================ */
+   ========================================= */
 
 @media (max-width: 600px) {
-
     header {
-        flex-direction: column;
-        gap: 15px;
-        padding: 18px 20px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        padding: 12px 16px;
+        border-bottom: none;
     }
 
     .logo img {
-        width: 110px;
+        width: 90px;
     }
 
     nav {
-        gap: 15px;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        gap: 8px;
     }
 
     nav a {
-        font-size: 14px;
+        padding: 9px 12px;
+        font-size: 13px;
+        white-space: nowrap;
     }
 
     .hero {
-        min-height: 450px;
-        padding: 60px 20px;
+        min-height: 0;
+        padding: 64px 22px 58px;
+        background-position: center center;
+    }
+
+    .hero-contenido {
+        max-width: 520px;
     }
 
     .hero h1 {
-        font-size: 32px;
+        margin: 0 0 18px;
+        font-size: 30px;
+        line-height: 1.15;
+        letter-spacing: -0.5px;
     }
 
     .hero p {
-        font-size: 17px;
+        margin: 0 0 26px;
+        font-size: 16px;
+        line-height: 1.55;
+    }
+
+    .hero .boton {
+        padding: 14px 22px;
+        font-size: 15px;
     }
 
     .seccion {
-        padding: 60px 20px;
+        padding: 40px 20px;
+    }
+
+    .barra-volver + .seccion {
+        padding-top: 24px;
     }
 
     .seccion h2,
     .informacion h2 {
-        font-size: 28px;
+        font-size: 26px;
+        line-height: 1.25;
+    }
+
+    .subtitulo {
+        margin-bottom: 30px;
+    }
+
+    .titulo-categoria + .subtitulo {
+        margin-top: 14px;
+    }
+
+    .barra-volver .volver {
+        padding: 10px 16px;
+        font-size: 15px;
+    }
+
+    .buscador-inicio {
+        padding: 24px 18px 0;
+    }
+
+    .buscador input {
+        min-height: 54px;
+        border-radius: 10px;
+    }
+
+    .ayuda-catalogo {
+        margin: 18px auto 25px;
+        padding: 20px 18px;
+    }
+
+    .ayuda-catalogo h3 {
+        font-size: 21px;
+        line-height: 1.3;
+    }
+
+    .ayuda-catalogo p {
+        margin-bottom: 18px;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    /* Categorías en dos columnas */
+    #categorias.seccion {
+        padding: 35px 16px 45px;
+    }
+
+    #categorias h2 {
+        margin-bottom: 12px;
+        font-size: 26px;
+        line-height: 1.2;
+    }
+
+    #categorias .subtitulo {
+        margin-bottom: 25px;
+        font-size: 15px;
+        line-height: 1.5;
     }
 
     .categorias {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+    }
+
+    .categoria {
+        padding: 18px 10px;
+        border-radius: 10px;
+    }
+
+    .icono-categoria {
+        height: 58px;
+        margin-bottom: 10px;
+    }
+
+    .icono-categoria img {
+        width: 58px;
+        height: 58px;
+    }
+
+    .icono-categoria img[alt="WhatsApp"],
+    .icono-categoria img[alt="Instagram"] {
+        width: 55px;
+        height: 55px;
+    }
+
+    .icono-categoria img[alt="TikTok"] {
+        width: 65px;
+        height: 65px;
+    }
+
+    .categoria h3 {
+        margin: 8px 0;
+        font-size: 16px;
+        line-height: 1.3;
+    }
+
+    .categoria p {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    .redes-sociales {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .redes-sociales .categoria {
+        width: 100%;
+        max-width: none;
     }
 
     .productos {
         grid-template-columns: 1fr;
+        gap: 20px;
     }
 
     .imagen-producto {
         height: 250px;
     }
 
+    .producto-info {
+        padding: 22px;
+    }
+
+    .producto h3 {
+        font-size: 19px;
+    }
+
+    .filtros {
+        gap: 10px;
+        margin: 28px auto 30px;
+    }
+
+    .filtro {
+        padding: 10px 16px;
+    }
+
+    .buscador-categoria {
+        padding: 0;
+    }
+
+    .informacion {
+        padding: 35px 18px;
+    }
+
+    .informacion h2 {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .pasos {
+        margin-top: 24px;
+        gap: 22px;
+    }
+
+    .paso > span {
+        width: 44px;
+        height: 44px;
+        margin-bottom: 14px;
+        font-size: 18px;
+    }
+
+    .paso h3 {
+        margin-top: 0;
+        margin-bottom: 8px;
+        font-size: 19px;
+    }
+
+    .paso p {
+        margin-bottom: 0;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .informacion.compra {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .informacion.compra .subtitulo {
+        margin-bottom: 25px;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
     .info-compra {
         grid-template-columns: 1fr;
+        gap: 14px;
+        margin-top: 20px;
     }
-}
 
-/* ESPACIO DEL SUBTÍTULO EN CATEGORÍAS */
+    .info-compra-item {
+        padding: 20px 16px;
+    }
 
-.titulo-categoria + .subtitulo {
-    margin-top: 20px;
-}
+    .info-compra-icono {
+        height: 58px;
+        margin-bottom: 10px;
+    }
 
-/* ==============================
-   BUSCADOR
-   ============================== */
+    .info-compra-icono img {
+        width: 60px;
+        height: 60px;
+    }
 
-.buscador-inicio {
-    display: flex;
-    justify-content: center;
-    padding: 35px 20px 10px;
-}
+    .info-compra-item h3 {
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
 
-.buscador {
-    width: 100%;
-    max-width: 650px;
-    position: relative;
-}
-
-.buscador input {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 14px 20px 14px 48px;
-    border: 1px solid #d0d0d0;
-    border-radius: 8px;
-    background-color: #ffffff;
-    color: #111111;
-    font-size: 16px;
-    outline: none;
-    transition: border-color 0.2s, box-shadow 0.2s;
-}
-
-.buscador input::placeholder {
-    color: #888888;
-}
-
-.buscador input:focus {
-    border-color: #111111;
-    box-shadow: 0 0 0 2px rgba(17, 17, 17, 0.08);
-}
-
-.icono-busqueda {
-    position: absolute;
-    left: 18px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    color: #111111;
-    line-height: 1;
-    pointer-events: none;
-}
-/* ======================================
-   AYUDA PARA ENCONTRAR PRODUCTOS
-   ====================================== */
-
-.ayuda-catalogo {
-    max-width: 850px;
-    margin: 35px auto 60px;
-    padding: 35px 25px;
-    text-align: center;
-    box-sizing: border-box;
-}
-
-.ayuda-catalogo h3 {
-    margin: 0 0 12px;
-    color: #111111;
-    font-size: 22px;
-}
-
-.ayuda-catalogo p {
-    max-width: 700px;
-    margin: 0 auto 22px;
-    color: #666666;
-    font-size: 16px;
-    line-height: 1.6;
-}
-/* BUSCADOR DENTRO DE CATEGORÍAS */
-
-.buscador-categoria {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto 30px;
-    padding: 0 20px;
-}
-
-.sin-resultados {
-    grid-column: 1 / -1;
-    width: 100%;
-    text-align: center;
-    padding: 70px 20px;
-    box-sizing: border-box;
-}
-
-.sin-resultados h3 {
-    margin: 0 0 10px;
-    color: #111111;
-    font-size: 22px;
-}
-
-.sin-resultados p {
-    margin: 0;
-    color: #666666;
-    font-size: 16px;
-}
-/* ================================
-   FOOTER EN CELULARES
-================================ */
-
-@media (max-width: 600px) {
+    .info-compra-item p {
+        margin-bottom: 14px;
+        font-size: 15px;
+        line-height: 1.5;
+    }
 
     .footer-contenido {
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;
         gap: 40px;
+        text-align: center;
     }
 
     .footer-marca,
     .footer-columna {
+        align-items: center;
         width: 100%;
         max-width: 320px;
-        box-sizing: border-box;
-        align-items: center;
         text-align: center;
     }
 
     .footer-marca h3 {
         margin-bottom: 15px;
-    }
-
-    .footer-marca p {
-        margin: 0;
     }
 
     .footer-columna h4 {
@@ -902,392 +1102,11 @@ footer {
     }
 
     .footer-categoria {
-        padding-left: 20px;
         padding-right: 20px;
+        padding-left: 20px;
     }
 
     .footer-categoria-inferior p {
         line-height: 1.5;
     }
-
 }
-/* ================================
-   AJUSTES PARA CELULARES
-================================ */
-
-@media (max-width: 600px) {
-
-    /* Tarjetas de redes sociales */
-    .redes-sociales {
-        flex-direction: column;
-        width: 100%;
-        gap: 20px;
-        align-items: center;
-    }
-
-    .redes-sociales .categoria {
-        width: 100%;
-        max-width: none;
-        box-sizing: border-box;
-    }
-
-    /* Quitar línea debajo del encabezado */
-    header {
-        border-bottom: none;
-    }
-
-}
-
-/* ======================================
-   ESCOBAR ELITE - ENCABEZADO PREMIUM MÓVIL
-====================================== */
-
-@media (max-width: 600px) {
-    header {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        gap: 12px;
-        padding: 12px 16px;
-    }
-
-    .logo img {
-        width: 90px;
-    }
-
-    nav {
-        gap: 8px;
-        flex-wrap: nowrap;
-        justify-content: flex-end;
-    }
-
-    nav a {
-        padding: 9px 12px;
-        font-size: 13px;
-        white-space: nowrap;
-    }
-}
-
-/* ======================================
-   ESCOBAR ELITE - BANNER PREMIUM MÓVIL
-====================================== */
-
-@media (max-width: 600px) {
-    .hero {
-        min-height: 0;
-        padding: 64px 22px 58px;
-        background-position: center center;
-    }
-
-    .hero-contenido {
-        max-width: 520px;
-    }
-
-    .hero h1 {
-        font-size: 30px;
-        line-height: 1.15;
-        margin: 0 0 18px;
-        letter-spacing: -0.5px;
-    }
-
-    .hero p {
-        font-size: 16px;
-        line-height: 1.55;
-        margin: 0 0 26px;
-    }
-
-    .hero .boton {
-        padding: 14px 22px;
-        font-size: 15px;
-    }
-}
-
-/* ======================================
-   ESCOBAR ELITE - BUSCADOR Y ESPACIADO
-====================================== */
-
-.buscador-inicio {
-    padding: 28px 20px 0;
-}
-
-.ayuda-catalogo {
-    margin: 20px auto 40px;
-    padding: 24px 25px;
-}
-
-.ayuda-catalogo h3 {
-    letter-spacing: -0.3px;
-}
-
-@media (max-width: 600px) {
-    .buscador-inicio {
-        padding: 22px 18px 0;
-    }
-
-    .buscador input {
-        min-height: 54px;
-        border-radius: 10px;
-    }
-
-    .ayuda-catalogo {
-        margin: 12px auto 28px;
-        padding: 22px 20px;
-    }
-
-    .ayuda-catalogo h3 {
-        font-size: 22px;
-        line-height: 1.25;
-    }
-
-    .ayuda-catalogo p {
-        font-size: 15px;
-        line-height: 1.6;
-    }
-}
-/* ======================================
-   ESCOBAR ELITE - OPTIMIZACIÓN MÓVIL
-====================================== */
-
-@media (max-width: 600px) {
-
-    /* Reducir espacios entre secciones */
-    .buscador-inicio {
-        padding: 24px 18px 0;
-    }
-
-    .ayuda-catalogo {
-        margin: 18px auto 25px;
-        padding: 20px 18px;
-    }
-
-    .ayuda-catalogo h3 {
-        font-size: 21px;
-        line-height: 1.3;
-    }
-
-    .ayuda-catalogo p {
-        font-size: 15px;
-        line-height: 1.5;
-        margin-bottom: 18px;
-    }
-
-    /* Categorías: dos columnas y dos filas */
-    #categorias.seccion {
-        padding: 35px 16px 45px;
-    }
-
-    #categorias h2 {
-        font-size: 26px;
-        line-height: 1.2;
-        margin-bottom: 12px;
-    }
-
-    #categorias .subtitulo {
-        font-size: 15px;
-        line-height: 1.5;
-        margin-bottom: 25px;
-    }
-
-    .categorias {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 12px;
-    }
-
-    .categoria {
-        padding: 18px 10px;
-        border-radius: 10px;
-    }
-
-    .icono-categoria {
-        height: 58px;
-        margin-bottom: 10px;
-    }
-
-    .icono-categoria img {
-        width: 58px;
-        height: 58px;
-    }
-
-    .categoria h3 {
-        font-size: 16px;
-        line-height: 1.3;
-        margin: 8px 0;
-    }
-
-    .categoria p {
-        font-size: 13px;
-        line-height: 1.4;
-    }
-
-    /* Compactar la sección Cómo funciona */
-    .informacion {
-        padding: 45px 18px;
-    }
-
-    .informacion h2 {
-        font-size: 26px;
-        line-height: 1.25;
-    }
-
-    .pasos {
-        margin-top: 28px;
-        gap: 28px;
-    }
-
-    .paso h3 {
-        font-size: 19px;
-        margin-bottom: 8px;
-    }
-
-    .paso p {
-        font-size: 15px;
-        line-height: 1.5;
-        margin-bottom: 0;
-    }
-
-    /* Reducir espacios de información de compra */
-    .info-compra {
-        margin-top: 28px;
-        gap: 16px;
-    }
-
-    .info-compra-item {
-        padding: 22px 18px;
-    }
-
-    .info-compra-item p {
-        font-size: 15px;
-        line-height: 1.5;
-    }
-
-}
-/* ======================================
-   ESCOBAR ELITE - SECCIONES MÁS COMPACTAS
-====================================== */
-
-@media (max-width: 600px) {
-
-    /* Reducir el espacio de Cómo funciona */
-    .informacion {
-        padding-top: 35px;
-        padding-bottom: 35px;
-    }
-
-    .informacion h2 {
-        margin-top: 0;
-        margin-bottom: 10px;
-    }
-
-    .pasos {
-        margin-top: 24px;
-        gap: 22px;
-    }
-
-    .paso > span {
-        width: 44px;
-        height: 44px;
-        font-size: 18px;
-        margin-bottom: 14px;
-    }
-
-    .paso h3 {
-        margin-top: 0;
-        margin-bottom: 8px;
-    }
-
-    /* Información de compra más compacta */
-    .informacion.compra {
-        padding-top: 35px;
-        padding-bottom: 35px;
-    }
-
-    .informacion.compra .subtitulo {
-        margin-bottom: 25px;
-        font-size: 15px;
-        line-height: 1.5;
-    }
-
-    .info-compra {
-        margin-top: 20px;
-        gap: 14px;
-    }
-
-    .info-compra-item {
-        padding: 20px 16px;
-    }
-
-    .info-compra-icono {
-        height: 58px;
-        margin-bottom: 10px;
-    }
-
-    .info-compra-icono img {
-        width: 60px;
-        height: 60px;
-    }
-
-    .info-compra-item h3 {
-        font-size: 18px;
-        margin-bottom: 8px;
-    }
-
-    .info-compra-item p {
-        margin-bottom: 14px;
-    }
-
-}
-/* ======================================
-   BOTON VOLVER AL INICIO
-====================================== */
-@media (max-width: 600px) {
-    .volver {
-        top: 74px;
-        width: calc(100% + 32px);
-        margin: -24px 0 22px -16px;
-        padding: 10px 16px;
-        font-size: 15px;
-    }
-}
-
-/* ======================================
-   BARRA VOLVER AL INICIO
-====================================== */
-.barra-volver {
-    position: sticky;
-    top: 73px;
-    z-index: 99;
-    width: 100%;
-    background-color: #f5f5f5;
-    border-bottom: 1px solid #d8d8d8;
-}
-
-.barra-volver .volver {
-    position: static;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    width: 100%;
-    margin: 0;
-    padding: 12px 5%;
-    box-sizing: border-box;
-    background-color: #f5f5f5;
-    color: #111111;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    border: none;
-    border-radius: 0;
-}
-
-@media (max-width: 600px) {
-    .barra-volver {
-        top: 73px;
-    }
-
-    .barra-volver .volver {
-        padding: 10px 16px;
-        font-size: 15px;
-    }
-}
-
-
