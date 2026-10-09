@@ -218,15 +218,17 @@ top: 90px;
 
 /* La sección de categoría empieza más cerca de la barra */
 
+
 .barra-volver + .seccion {
-    padding-top: 105px;
+    padding-top: 28px;
 }
 
 @media (max-width: 600px) {
     .barra-volver + .seccion {
-        padding-top: 100px;
+        padding-top: 24px;
     }
 }
+
 
 /* 7. CATEGORÍAS */
 
