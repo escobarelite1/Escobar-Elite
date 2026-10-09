@@ -991,3 +991,46 @@ footer {
         font-size: 15px;
     }
 }
+
+/* ======================================
+   ESCOBAR ELITE - BUSCADOR Y ESPACIADO
+====================================== */
+
+.buscador-inicio {
+    padding: 28px 20px 0;
+}
+
+.ayuda-catalogo {
+    margin: 20px auto 40px;
+    padding: 24px 25px;
+}
+
+.ayuda-catalogo h3 {
+    letter-spacing: -0.3px;
+}
+
+@media (max-width: 600px) {
+    .buscador-inicio {
+        padding: 22px 18px 0;
+    }
+
+    .buscador input {
+        min-height: 54px;
+        border-radius: 10px;
+    }
+
+    .ayuda-catalogo {
+        margin: 12px auto 28px;
+        padding: 22px 20px;
+    }
+
+    .ayuda-catalogo h3 {
+        font-size: 22px;
+        line-height: 1.25;
+    }
+
+    .ayuda-catalogo p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+}
