@@ -28,21 +28,23 @@ if (contenedorProductos) {
     // DETECTAR CATEGORÍA
     // ==================================
 
-    if (pagina.includes('camisetas.html')) {
+
+    if (pagina.includes('camisetas')) {
         categoriaActual = 'camisetas';
     }
 
-    else if (pagina.includes('calzado.html')) {
+    else if (pagina.includes('calzado')) {
         categoriaActual = 'calzado';
     }
 
-    else if (pagina.includes('ropa.html')) {
+    else if (pagina.includes('ropa')) {
         categoriaActual = 'ropa';
     }
 
-    else if (pagina.includes('accesorios.html')) {
+    else if (pagina.includes('accesorios')) {
         categoriaActual = 'accesorios';
     }
+
 
 
     // ==================================
