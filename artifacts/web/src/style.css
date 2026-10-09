@@ -927,3 +927,33 @@ footer {
     }
 
 }
+
+/* ======================================
+   ESCOBAR ELITE - ENCABEZADO PREMIUM MÓVIL
+====================================== */
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        padding: 12px 16px;
+    }
+
+    .logo img {
+        width: 90px;
+    }
+
+    nav {
+        gap: 8px;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+    }
+
+    nav a {
+        padding: 9px 12px;
+        font-size: 13px;
+        white-space: nowrap;
+    }
+}
