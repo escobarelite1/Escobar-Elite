@@ -1,118 +1,93 @@
-                            <!DOCTYPE html>
-                            <html lang="es">
+<!doctype html>
 
-                            <head>
-                                <meta charset="UTF-8">
-                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />    <title>Calzado | ESCOBAR ÉLITE</title>
 
-                                <title>Calzado | ESCOBAR ÉLITE</title>
+    <link rel="stylesheet" href="/src/style.css" />
+</head>
 
-                                <link rel="stylesheet" href="/src/style.css">
-                            </head>
+<body>
+    <!-- ENCABEZADO Y BARRA VOLVER -->
+    <div class="encabezado-categoria">
+        <header>
+            <div class="logo">
+                <img src="/imagenes/logo/Logo.png" alt="ESCOBAR ÉLITE" />
+            </div>
 
-                            <body>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="index.html#categorias">Categorías</a>
+                <a href="index.html#contacto">Contacto</a>
+            </nav>
+        </header>
 
-                                <header>
+        <div class="barra-volver">
+            <a href="index.html" class="volver">
+                <svg
+                    class="icono-volver"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                >
+                    <path d="M19 12H5"></path>
+                    <path d="M11 18L5 12L11 6"></path>
+                </svg>
 
-                                    <div class="logo">
-                                        <img src="/imagenes/logo/Logo.png" alt="ESCOBAR ÉLITE">
-                                    </div>
+                <span>Volver al inicio</span>
+            </a>
+        </div>
+    </div>
 
-                                    <nav>
-                                        <a href="index.html">Inicio</a>
-                                        <a href="index.html#categorias">Categorías</a>
-                                        <a href="index.html#contacto">Contacto</a>
-                                    </nav>
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <section class="seccion">
+            <h1 class="titulo-categoria">Calzado</h1>
 
-                                </header>
+            <p class="subtitulo">
+                Explora nuestro calzado deportivo, de fútbol y casual.
+            </p>
 
+            <!-- BUSCADOR -->
+            <div class="buscador-categoria">
+                <div class="buscador">
+                    <span class="icono-busqueda">⌕</span>
 
-                                <main>
+                    <input
+                        type="text"
+                        placeholder="Buscar en calzado..."
+                        aria-label="Buscar en calzado"
+                    />
+                </div>
+            </div>
 
-                                    <section class="seccion">
+            <!-- FILTROS -->
+            <div class="filtros">
+                <button class="filtro activo">Todos</button>
+                <button class="filtro">Guayos</button>
+                <button class="filtro">Deportivos</button>
+                <button class="filtro deshabilitado" disabled>
+                    Casual
+                </button>
+            </div>
 
-                                        <a href="index.html" class="volver">
-                                            <svg class="icono-volver" viewBox="0 0 24 24" aria-hidden="true">
-                                                <path d="M19 12H5"></path>
-                                                <path d="M11 18L5 12L11 6"></path>
-                                            </svg>
-                                            <span>Volver al inicio</span>
-                                        </a>
+            <!-- PRODUCTOS -->
+            <div class="productos"></div>
+        </section>
+    </main>
 
-                                        <h1 class="titulo-categoria">
-                                            Calzado
-                                        </h1>
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer-categoria">
+        <h3>ESCOBAR ÉLITE</h3>
 
-                                        <p class="subtitulo">
-                                            Explora nuestro calzado deportivo, de fútbol y casual.
-                                        </p>
-                                        
-                                        <!-- BUSCADOR -->
-                                        
-                                        <div class="buscador-categoria">
+        <p>Tu pasión por el deporte, tu estilo.</p>
 
-                                            <div class="buscador">
+        <div class="footer-categoria-inferior">
+            <p>© 2026 ESCOBAR ÉLITE · Todos los derechos reservados</p>
+        </div>
+    </footer>
 
-                                                <span class="icono-busqueda">⌕</span>
+    <script type="module" src="/src/main.js"></script>
+</body>
 
-                                                <input
-                                                    type="text"
-                                                    placeholder="Buscar en calzado..."
-                                                    aria-label="Buscar en calzado"
-                                                >
-
-                                            </div>
-
-                                        </div>
-
-                                        <!-- FILTROS -->
-                                        <div class="filtros">
-
-                                            <button class="filtro activo">
-                                                Todos
-                                            </button>
-
-                                                <button class="filtro">Guayos</button>
-                                            </button>
-
-                                                <button class="filtro">Deportivos</button>
-                                            </button>
-
-                                            <button class="filtro deshabilitado" disabled>
-                                                Casual
-                                            </button>
-
-                                        </div>
-
-
-                                        <div class="productos">
-
-                                        </div>
-
-                                    </section>
-
-                                </main>
-
-
-                                <footer class="footer-categoria">
-
-                                    <h3>ESCOBAR ÉLITE</h3>
-
-                                    <p>
-                                        Tu pasión por el deporte, tu estilo.
-                                    </p>
-
-                                    <div class="footer-categoria-inferior">
-
-                                        <p>
-                                            © 2026 ESCOBAR ÉLITE · Todos los derechos reservados
-                                        </p>
-
-                                    </div>
-
-                                </footer>
-
-                                <script type="module" src="/src/main.js"></script>
-                            </body>
-
-                            </html>
+</html>
