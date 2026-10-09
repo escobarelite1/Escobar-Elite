@@ -176,10 +176,9 @@ nav a:hover {
 
 /* 6. BARRA VOLVER AL INICIO */
 
-
 .barra-volver {
-   position: sticky;
-top: 90px;
+    position: sticky;
+    top: 0;
     z-index: 99;
     width: 100%;
     background-color: #f5f5f5;
@@ -864,10 +863,6 @@ footer {
     .barra-volver .volver {
         padding: 10px 16px;
         font-size: 15px;
-    }
-   
-    .barra-volver {
-    top: 70px;
     }
 
     .buscador-inicio {
