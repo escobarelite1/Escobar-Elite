@@ -256,16 +256,24 @@ nav a:hover {
 /* ================================
    VOLVER AL INICIO
 ================================ */
-
 .volver {
-    display: inline-flex;
+    position: sticky;
+    top: 75px;
+    z-index: 90;
+    display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 35px;
-    color: #111;
+    width: calc(100% + 60px);
+    margin: -30px 0 25px -30px;
+    padding: 14px 30px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    color: #111111;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 600;
+    border-bottom: 1px solid #d8d8d8;
+    border-radius: 0;
 }
 
 .icono-volver {
@@ -1227,20 +1235,14 @@ footer {
 
 }
 /* ======================================
-   ESCOBAR ELITE - FLECHA VOLVER FIJA
+   BOTON VOLVER AL INICIO
 ====================================== */
-
 @media (max-width: 600px) {
-    .seccion > .volver {
-        position: sticky;
-        top: 105px;
-        z-index: 90;
-        display: flex;
-        width: fit-content;
-        align-items: center;
-        padding: 8px 12px;
-        margin-bottom: 20px;
-        background-color: #f5f5f5;
-        border-radius: 8px;
+    .volver {
+        top: 74px;
+        width: calc(100% + 32px);
+        margin: -24px 0 22px -16px;
+        padding: 12px 16px;
+        font-size: 15px;
     }
 }
