@@ -1226,3 +1226,21 @@ footer {
     }
 
 }
+/* ======================================
+   ESCOBAR ELITE - FLECHA VOLVER FIJA
+====================================== */
+
+@media (max-width: 600px) {
+    .seccion > .volver {
+        position: sticky;
+        top: 105px;
+        z-index: 90;
+        display: flex;
+        width: fit-content;
+        align-items: center;
+        padding: 8px 12px;
+        margin-bottom: 20px;
+        background-color: #f5f5f5;
+        border-radius: 8px;
+    }
+}
