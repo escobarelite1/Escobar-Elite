@@ -957,3 +957,37 @@ footer {
         white-space: nowrap;
     }
 }
+
+/* ======================================
+   ESCOBAR ELITE - BANNER PREMIUM MÓVIL
+====================================== */
+
+@media (max-width: 600px) {
+    .hero {
+        min-height: 0;
+        padding: 64px 22px 58px;
+        background-position: center center;
+    }
+
+    .hero-contenido {
+        max-width: 520px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+        line-height: 1.15;
+        margin: 0 0 18px;
+        letter-spacing: -0.5px;
+    }
+
+    .hero p {
+        font-size: 16px;
+        line-height: 1.55;
+        margin: 0 0 26px;
+    }
+
+    .hero .boton {
+        padding: 14px 22px;
+        font-size: 15px;
+    }
+}
