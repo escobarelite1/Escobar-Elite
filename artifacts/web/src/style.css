@@ -341,6 +341,50 @@ nav a:hover {
     box-shadow: 0 0 0 2px rgba(17, 17, 17, 0.08);
 }
 
+
+/* Botón para limpiar la búsqueda */
+
+.buscador-con-limpiar input {
+    padding-right: 54px;
+}
+
+.boton-limpiar-busqueda {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    transform: translateY(-50%);
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #666666;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    line-height: 1;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.boton-limpiar-busqueda:hover {
+    background-color: #eeeeee;
+    color: #111111;
+}
+
+.boton-limpiar-busqueda:focus-visible {
+    outline: 2px solid #111111;
+    outline-offset: 2px;
+}
+
+.boton-limpiar-busqueda[hidden] {
+    display: none;
+}
+
+
 .icono-busqueda {
     position: absolute;
     top: 50%;
