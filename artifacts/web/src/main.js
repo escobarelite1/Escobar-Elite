@@ -87,17 +87,24 @@ if (contenedorProductos) {
         
         const productosFiltrados = obtenerProductosFiltrados();
 
-        if (productosFiltrados.length === 0) {
+        
+if (productosFiltrados.length === 0) {
+    const mensaje = {
+        camisetas: 'No hay camisetas que coincidan con tu búsqueda.',
+        calzado: 'No hay productos de calzado que coincidan con tu búsqueda.',
+        ropa: 'No hay prendas que coincidan con tu búsqueda.',
+        accesorios: 'No hay accesorios que coincidan con tu búsqueda.'
+    };
 
-            contenedorProductos.innerHTML = `
-                <div class="sin-resultados">
-                    <h3>No encontramos productos</h3>
-                    <p>No hay camisetas que coincidan con tu búsqueda.</p>
-                </div>
-            `;
+    contenedorProductos.innerHTML = `
+        <div class="sin-resultados">
+            <h3>No encontramos productos</h3>
+            <p>${mensaje[categoriaActual] || 'Prueba con otra búsqueda.'}</p>
+        </div>
+    `;
+    return;
+}
 
-            return;
-        }
 
         productosFiltrados.forEach(producto => {
 
