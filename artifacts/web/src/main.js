@@ -262,6 +262,12 @@ if (contenedorProductos) {
                 subcategoriaActual = '';
             } else if (filtro === 'futbol') {
                 subcategoriaActual = 'futbol';
+            } else if (
+                filtro === 'tenis casuales' ||
+                filtro === 'tenis casual' ||
+                filtro === 'casual'
+            ) {
+                subcategoriaActual = 'casual';
             } else {
                 subcategoriaActual = filtro;
             }
