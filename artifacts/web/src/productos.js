@@ -1280,529 +1280,468 @@
             imagen: "/imagenes/accesorios/futbol/espinilleras/Accesorios 4.JPG"
         },,
 
+        // =========================
+    // CALZADO - TENIS CASUALES
+    // =========================
+
     {
         id: "TC1",
-        nombre: "Tenis casual 1",
+        nombre: "Polo Ralph Lauren Heritage Court II - Beige Milkshake",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis1.JPG"
     },
-
     {
         id: "TC2",
-        nombre: "Tenis casual 2",
+        nombre: "Tommy Hilfiger Iconic Sneaker - Beige",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis2.JPG"
     },
-
     {
         id: "TC3",
-        nombre: "Tenis casual 3",
+        nombre: "Nike Air Ultra - Negro total",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis3.JPG"
     },
-
     {
         id: "TC4",
-        nombre: "Tenis casual 4",
+        nombre: "Monastery",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis4.JPG"
     },
-
     {
         id: "TC5",
-        nombre: "Tenis casual 5",
+        nombre: "Hugo Boss - Blancos",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis5.JPG"
     },
-
     {
         id: "TC6",
-        nombre: "Tenis casual 6",
+        nombre: "Hugo Boss - Negros",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis6.JPG"
     },
-
     {
         id: "TC7",
-        nombre: "Tenis casual 7",
+        nombre: "Karl Lagerfeld Paris - Blancos de plataforma",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis7.JPG"
     },
-
     {
         id: "TC8",
-        nombre: "Tenis casual 8",
+        nombre: "Karl Lagerfeld Paris - Negros de plataforma",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis8.JPG"
     },
-
     {
         id: "TC9",
-        nombre: "Tenis casual 9",
+        nombre: "Karl Lagerfeld Paris Cate",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis9.JPG"
     },
-
     {
         id: "TC10",
-        nombre: "Tenis casual 10",
+        nombre: "Air Jordan 11 Retro - Bred",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis10.JPG"
     },
-
     {
         id: "TC11",
-        nombre: "Tenis casual 11",
+        nombre: "Air Jordan 11 Retro - Space Jam",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis11.JPG"
     },
-
     {
         id: "TC12",
-        nombre: "Tenis casual 12",
+        nombre: "Nike Air Force 1 x The North Face - Blanco y negro",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis12.JPG"
     },
-
     {
         id: "TC13",
-        nombre: "Tenis casual 13",
+        nombre: "Nike Air Force 1 Low x The North Face",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis13.JPG"
     },
-
     {
         id: "TC14",
-        nombre: "Tenis casual 14",
+        nombre: "Gucci - Marrón claro y beige",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis14.JPG"
     },
-
     {
         id: "TC15",
-        nombre: "Tenis casual 15",
+        nombre: "Gucci - Negras",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis15.JPG"
     },
-
     {
         id: "TC16",
-        nombre: "Tenis casual 16",
+        nombre: "Adidas Campus 00s - Negro y blanco",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis16.JPG"
     },
-
     {
         id: "TC17",
-        nombre: "Tenis casual 17",
+        nombre: "Vans Upland - Gris",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis17.JPG"
     },
-
     {
         id: "TC18",
-        nombre: "Tenis casual 18",
+        nombre: "Puma Palermo LTH - Blanco y negro",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis18.JPG"
     },
-
     {
         id: "TC19",
-        nombre: "Tenis casual 19",
+        nombre: "Air Jordan 1 Mid SE - Space Jam",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis19.JPG"
     },
-
     {
         id: "TC20",
-        nombre: "Tenis casual 20",
+        nombre: "Vans Hylane - Café y beige",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis20.JPG"
     },
-
     {
         id: "TC21",
-        nombre: "Tenis casual 21",
+        nombre: "Nike Dunk Low - Cacao Wow",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis21.JPG"
     },
-
     {
         id: "TC22",
-        nombre: "Tenis casual 22",
+        nombre: "Adidas Equipment EQT - Beige, naranja y verde esmeralda",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis22.JPG"
     },
-
     {
         id: "TC23",
-        nombre: "Tenis casual 23",
+        nombre: "Adidas Equipment EQT - Beige y azul marino",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis23.JPG"
     },
-
     {
         id: "TC24",
-        nombre: "Tenis casual 24",
+        nombre: "Puma Suede XL BMW Motorsport - Negro y rojo",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis24.JPG"
     },
-
     {
         id: "TC25",
-        nombre: "Tenis casual 25",
+        nombre: "Nike P-6000 - Metallic Silver",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis25.JPG"
     },
-
     {
         id: "TC26",
-        nombre: "Tenis casual 26",
+        nombre: "Louis Vuitton LV Skate - Negro",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis26.JPG"
     },
-
     {
         id: "TC27",
-        nombre: "Tenis casual 27",
+        nombre: "Adidas Superstar - Clásicos",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis27.JPG"
     },
-
     {
         id: "TC28",
-        nombre: "Tenis casual 28",
+        nombre: "Nike Cortez - Negro con detalles blancos",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis28.JPG"
     },
-
     {
         id: "TC29",
-        nombre: "Tenis casual 29",
+        nombre: "Nike P-6000 - Beige y café",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis29.JPG"
     },
-
     {
         id: "TC30",
-        nombre: "Tenis casual 30",
+        nombre: "Nike SB Dunk Low Pro ISO - Triple White Orange Label",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis30.JPG"
     },
-
     {
         id: "TC31",
-        nombre: "Tenis casual 31",
+        nombre: "Nike Dunk Low Next Nature SE - San Valentín 2026",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis31.JPG"
     },
-
     {
         id: "TC32",
-        nombre: "Tenis casual 32",
+        nombre: "Nike Dunk Low - Cacao Wow",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis32.JPG"
     },
-
     {
         id: "TC33",
-        nombre: "Tenis casual 33",
+        nombre: "Nike Dunk Low - Sanddrift",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis33.JPG"
     },
-
     {
         id: "TC34",
-        nombre: "Tenis casual 34",
+        nombre: "Nike Dunk Low Retro - Panda",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis34.JPG"
     },
-
     {
         id: "TC35",
-        nombre: "Tenis casual 35",
+        nombre: "Nike SB Force 58 - Marrón y crema",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis35.JPG"
     },
-
     {
         id: "TC36",
-        nombre: "Tenis casual 36",
+        nombre: "ASICS Gel-Kayano 14 - Plateado, fucsia y negro",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis36.JPG"
     },
-
     {
         id: "TC37",
-        nombre: "Tenis casual 37",
+        nombre: "ASICS Gel-Kayano 14 - Monaco Blue y Silver",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis37.JPG"
     },
-
     {
         id: "TC38",
-        nombre: "Tenis casual 38",
+        nombre: "ASICS Gel-Kayano 14 - Blanco, plateado y morado",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis38.JPG"
     },
-
     {
         id: "TC39",
-        nombre: "Tenis casual 39",
+        nombre: "Adidas Originals Drop Step Low 2.0 - Blanco, crema y marrón",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis39.JPG"
     },
-
     {
         id: "TC40",
-        nombre: "Tenis casual 40",
+        nombre: "Adidas Drop Step Low 2.0 - Brown White",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis40.JPG"
     },
-
     {
         id: "TC41",
-        nombre: "Tenis casual 41",
+        nombre: "Adidas Originals Drop Step Low 2.0 - Negro, gris y blanco",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis41.JPG"
     },
-
     {
         id: "TC42",
-        nombre: "Tenis casual 42",
+        nombre: "Adidas Duramo Speed",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis42.JPG"
     },
-
     {
         id: "TC43",
-        nombre: "Tenis casual 43",
+        nombre: "Adidas Bounce - Gris",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis43.JPG"
     },
-
     {
         id: "TC44",
-        nombre: "Tenis casual 44",
+        nombre: "Nike Air Max 90 - Tweed Dark Army",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis44.JPG"
     },
-
     {
         id: "TC45",
-        nombre: "Tenis casual 45",
+        nombre: "Nike Air Max Plus TN - Negras",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis45.JPG"
     },
-
     {
         id: "TC46",
-        nombre: "Tenis casual 46",
+        nombre: "Nike Air Max Plus TN - Pink Rise",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis46.JPG"
     },
-
     {
         id: "TC47",
-        nombre: "Tenis casual 47",
+        nombre: "Nike Air Max Plus TN - Rojo",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis47.JPG"
     },
-
     {
         id: "TC48",
-        nombre: "Tenis casual 48",
+        nombre: "Nike Air Max Plus TN - Naranja",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis48.JPG"
     },
-
     {
         id: "TC49",
-        nombre: "Tenis casual 49",
+        nombre: "Nike Air Max Plus TN - Red Deadpool",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis49.JPG"
     },
-
     {
         id: "TC50",
-        nombre: "Tenis casual 50",
+        nombre: "Nike Air Max Plus OG - Black Reflective",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis50.JPG"
     },
-
     {
         id: "TC51",
-        nombre: "Tenis casual 51",
+        nombre: "Louis Vuitton LV Trainer - Negro y blanco",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis51.JPG"
     },
-
     {
         id: "TC52",
-        nombre: "Tenis casual 52",
+        nombre: "Louis Vuitton LV Trainer - Denim azul",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis52.JPG"
     },
-
     {
         id: "TC53",
-        nombre: "Tenis casual 53",
+        nombre: "Adidas Campus ST - Café y marrón con detalles claros",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis53.JPG"
     },
-
     {
         id: "TC54",
-        nombre: "Tenis casual 54",
+        nombre: "Adidas Campus ST - Gris",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis54.JPG"
     },
-
     {
         id: "TC55",
-        nombre: "Tenis casual 55",
+        nombre: "Louis Vuitton LV Trainer - Rosa",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis55.JPG"
     },
-
     {
         id: "TC56",
-        nombre: "Tenis casual 56",
+        nombre: "Adidas Court Nova",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis56.JPG"
     },
-
     {
         id: "TC57",
-        nombre: "Tenis casual 57",
+        nombre: "Adidas Court Nova",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis57.JPG"
     },
-
     {
         id: "TC58",
-        nombre: "Tenis casual 58",
+        nombre: "Air Jordan 1 Low SE - Light Olive",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis58.JPG"
     },
-
     {
         id: "TC59",
-        nombre: "Tenis casual 59",
+        nombre: "New Balance 550 - Blanco y verde",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis59.JPG"
     },
-
     {
         id: "TC60",
-        nombre: "Tenis casual 60",
+        nombre: "New Balance 550 - Blanco y celeste",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis60.JPG"
     },
-
     {
         id: "TC61",
-        nombre: "Tenis casual 61",
+        nombre: "New Balance 550 - Blanco y gris",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis61.JPG"
     },
-
     {
         id: "TC62",
-        nombre: "Tenis casual 62",
+        nombre: "New Balance 550 - Blanco y negro",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis62.JPG"
     },
-
     {
         id: "TC63",
-        nombre: "Tenis casual 63",
+        nombre: "Le Coq Sportif Astra 2",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis63.JPG"
     },
-
     {
         id: "TC64",
-        nombre: "Tenis casual 64",
+        nombre: "Nike Air Force 1 Low - Negro",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis64.jpg"
     },
-
     {
         id: "TC65",
-        nombre: "Tenis casual 65",
+        nombre: "Nike Air Force 1 Low - Triple Red",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis65.JPG"
     },
-
     {
         id: "TC66",
-        nombre: "Tenis casual 66",
+        nombre: "Nike Air Force 1 Low - Blanco clásico",
         categoria: "calzado",
         subcategoria: "casual",
         imagen: "/imagenes/calzado/casual/Tenis66.JPG"
