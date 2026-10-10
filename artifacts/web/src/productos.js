@@ -5,7 +5,7 @@
         // =========================
 
         {
-            id: 1,
+            id: "C1",
             nombre: "Manchester United Retro 2007/08 – Visitante",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -13,7 +13,7 @@
         },
 
         {
-            id: 2,
+            id: "C2",
             nombre: "FC Barcelona Retro 1995/97 – Local",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -21,7 +21,7 @@
         },
 
         {
-            id: 3,
+            id: "C3",
             nombre: "Real Madrid Retro 2006/07 – Local",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -29,7 +29,7 @@
         },
 
         {
-            id: 4,
+            id: "C4",
             nombre: "AS Roma Retro 1998/99 – Local",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -37,7 +37,7 @@
         },
 
         {
-            id: 5,
+            id: "C5",
             nombre: "Manchester United Retro 2007/08 – Local",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -45,7 +45,7 @@
         },
 
         {
-            id: 6,
+            id: "C6",
             nombre: "Real Madrid Retro 2000/01 – Local",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -53,7 +53,7 @@
         },
 
         {
-            id: 7,
+            id: "C7",
             nombre: "FC Barcelona Retro – Edición Centenario (1899–1999)",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -61,7 +61,7 @@
         },
 
         {
-            id: 8,
+            id: "C8",
             nombre: "S.S. Lazio Retro 1998/99 – Visitante",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -69,7 +69,7 @@
         },
 
         {
-            id: 9,
+            id: "C9",
             nombre: "Real Madrid Retro 2006/07 – Tercera",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -77,7 +77,7 @@
         },
 
         {
-            id: 10,
+            id: "C10",
             nombre: "Grêmio Retro 1999/01 – Local",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -85,7 +85,7 @@
         },
 
         {
-            id: 11,
+            id: "C11",
             nombre: "Boca Juniors Retro 1996/97 – Local",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -93,7 +93,7 @@
         },
 
         {
-            id: 12,
+            id: "C12",
             nombre: "Real Madrid Retro 1999/00 – Local",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -101,7 +101,7 @@
         },
 
         {
-            id: 13,
+            id: "C13",
             nombre: "São Paulo FC Retro 2000/01 – Local",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -109,7 +109,7 @@
         },
 
         {
-            id: 14,
+            id: "C14",
             nombre: "FC Barcelona Retro 2001/03 – Especial",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -117,7 +117,7 @@
         },
 
         {
-            id: 15,
+            id: "C15",
             nombre: "Real Madrid Retro 1996/97 – Tercera",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -125,7 +125,7 @@
         },
 
         {
-            id: 16,
+            id: "C16",
             nombre: "Real Madrid Retro 1998/99 – Visitante",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -133,7 +133,7 @@
         },
 
         {
-            id: 17,
+            id: "C17",
             nombre: "Arsenal FC Retro 2007/08 – Tercera",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -141,7 +141,7 @@
         },
 
         {
-            id: 18,
+            id: "C18",
             nombre: "AC Milan Retro 1995/96 – Visitante",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -149,7 +149,7 @@
         },
 
         {
-            id: 19,
+            id: "C19",
             nombre: "Brasil Retro 2010 – Local",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -157,7 +157,7 @@
         },
 
         {
-            id: 20,
+            id: "C20",
             nombre: "Brasil Retro 1994 – Local",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -165,7 +165,7 @@
         },
 
         {
-            id: 21,
+            id: "C21",
             nombre: "Brasil Retro 2004/06 – Local",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -173,7 +173,7 @@
         },
 
         {
-            id: 22,
+            id: "C22",
             nombre: "Argentina Retro 1986 – Visitante",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -181,7 +181,7 @@
         },
 
         {
-            id: 23,
+            id: "C23",
             nombre: "Brasil Retro 1991/93 – Local",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -189,7 +189,7 @@
         },
 
         {
-            id: 24,
+            id: "C24",
             nombre: "Real Madrid Retro 1997/98 – Local",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -197,7 +197,7 @@
         },
 
         {
-            id: 25,
+            id: "C25",
             nombre: "Chelsea FC Retro 2006/07 – Local",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -205,7 +205,7 @@
         },
 
         {
-            id: 26,
+            id: "C26",
             nombre: "Alemania Retro 2014 – Local",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -213,7 +213,7 @@
         },
 
         {
-            id: 27,
+            id: "C27",
             nombre: "Argentina Retro – Local",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -221,7 +221,7 @@
         },
 
         {
-            id: 28,
+            id: "C28",
             nombre: "Real Madrid Retro 1997/98 – Tercera",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -229,7 +229,7 @@
         },
 
         {
-            id: 29,
+            id: "C29",
             nombre: "Inter de Milán Retro 1995/96 – Local",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -237,7 +237,7 @@
         },
 
         {
-            id: 30,
+            id: "C30",
             nombre: "FC Barcelona Retro 1999/00 – Local · Manga larga",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -245,7 +245,7 @@
         },
 
         {
-            id: 31,
+            id: "C31",
             nombre: "Alemania Retro 1994 – Local",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -253,7 +253,7 @@
         },
 
         {
-            id: 32,
+            id: "C32",
             nombre: "Real Madrid Retro 2001/02 – Visitante",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -261,7 +261,7 @@
         },
 
         {
-            id: 33,
+            id: "C33",
             nombre: "FC Barcelona Retro 2007/08 – Local · 50.º aniversario del Camp Nou",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -269,7 +269,7 @@
         },
 
         {
-            id: 34,
+            id: "C34",
             nombre: "Portugal Retro 2004 – Local",
             categoria: "camisetas",
             subcategoria: "retro",
@@ -282,7 +282,7 @@
         // =========================
 
         {
-            id: 35,
+            id: "C35",
             nombre: "FC Barcelona 2026/27 – Visitante",
             categoria: "camisetas",
             subcategoria: "clubes",
@@ -290,7 +290,7 @@
         },
 
         {
-            id: 36,
+            id: "C36",
             nombre: "Arsenal FC 2026/27 – Visitante",
             categoria: "camisetas",
             subcategoria: "clubes",
@@ -298,7 +298,7 @@
         },
 
         {
-            id: 37,
+            id: "C37",
             nombre: "FC Barcelona – Concepto Fantasy · Edición no oficial",
             categoria: "camisetas",
             subcategoria: "clubes",
@@ -306,7 +306,7 @@
         },
 
         {
-            id: 38,
+            id: "C38",
             nombre: "FC Bayern München 2026/27 – Local",
             categoria: "camisetas",
             subcategoria: "clubes",
@@ -314,7 +314,7 @@
         },
 
         {
-            id: 39,
+            id: "C39",
             nombre: "Manchester United 2026/27 – Local",
             categoria: "camisetas",
             subcategoria: "clubes",
@@ -322,7 +322,7 @@
         },
 
         {
-            id: 40,
+            id: "C40",
             nombre: "AC Milan 2026/27 – Local",
             categoria: "camisetas",
             subcategoria: "clubes",
@@ -330,7 +330,7 @@
         },
 
         {
-            id: 42,
+            id: "C41",
             nombre: "Real Madrid x Louis Vuitton – Luxury Concept",
             categoria: "camisetas",
             subcategoria: "clubes",
@@ -338,7 +338,7 @@
         },
 
         {
-            id: 44,
+            id: "C42",
             nombre: "Manchester United 2026/27 – Tercera",
             categoria: "camisetas",
             subcategoria: "clubes",
@@ -346,7 +346,7 @@
         },
 
         {
-            id: 45,
+            id: "C43",
             nombre: "Inter de Milán 2026/27 – Local",
             categoria: "camisetas",
             subcategoria: "clubes",
@@ -354,7 +354,7 @@
         },
 
         {
-            id: 46,
+            id: "C44",
             nombre: "FC Bayern München 2025/26 – Wiesn (Oktoberfest)",
             categoria: "camisetas",
             subcategoria: "clubes",
@@ -362,7 +362,7 @@
         },
 
         {
-            id: 47,
+            id: "C45",
             nombre: "Manchester City 2026/27 – Visitante",
             categoria: "camisetas",
             subcategoria: "clubes",
@@ -370,7 +370,7 @@
         },
 
         {
-            id: 48,
+            id: "C46",
             nombre: "Paris Saint-Germain (PSG) 2026/27 – Local",
             categoria: "camisetas",
             subcategoria: "clubes",
@@ -378,7 +378,7 @@
         },
 
         {
-            id: 49,
+            id: "C47",
             nombre: "Manchester City 2026/27 – Tercera",
             categoria: "camisetas",
             subcategoria: "clubes",
@@ -386,7 +386,7 @@
         },
 
         {
-            id: 50,
+            id: "C48",
             nombre: "FC Barcelona 2026/27 – Local",
             categoria: "camisetas",
             subcategoria: "clubes",
@@ -398,7 +398,7 @@
         // =========================
 
         {
-            id: 51,
+            id: "C49",
             nombre: "Brasil 2026 – Visitante · Mundial 2026",
             categoria: "camisetas",
             subcategoria: "selecciones",
@@ -406,7 +406,7 @@
         },
 
         {
-            id: 52,
+            id: "C50",
             nombre: "Argentina 2026 – Local · Mundial 2026",
             categoria: "camisetas",
             subcategoria: "selecciones",
@@ -414,7 +414,7 @@
         },
 
         {
-            id: 53,
+            id: "C51",
             nombre: "Colombia 2026 – Visitante",
             categoria: "camisetas",
             subcategoria: "selecciones",
@@ -422,7 +422,7 @@
         },
 
         {
-            id: 54,
+            id: "C52",
             nombre: "Brasil 2026 – Mundial 2026",
             categoria: "camisetas",
             subcategoria: "selecciones",
@@ -430,7 +430,7 @@
         },
 
         {
-            id: 55,
+            id: "C53",
             nombre: "Portugal – Pantera Negra · Edición especial en homenaje a Eusébio",
             categoria: "camisetas",
             subcategoria: "selecciones",
@@ -442,7 +442,7 @@
             // =========================
 
             {
-                id: 56,
+                id: "G1",
                 nombre: "Adidas F50 – Cancha sintética",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -450,7 +450,7 @@
             },
 
             {
-                id: 57,
+                id: "G2",
                 nombre: "Nike Phantom x Cactus Jack – Travis Scott",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -458,7 +458,7 @@
             },
 
             {
-                id: 58,
+                id: "G3",
                 nombre: "Nike Phantom 6 Elite",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -466,7 +466,7 @@
             },
 
             {
-                id: 59,
+                id: "G4",
                 nombre: "Nike Mercurial Superfly 1 RGN CR7 – Edición especial",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -474,7 +474,7 @@
             },
 
             {
-                id: 60,
+                id: "G5",
                 nombre: "Adidas Predator ZZ30 – Edición especial Zinedine Zidane",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -482,7 +482,7 @@
             },
 
             {
-                id: 61,
+                id: "G6",
                 nombre: "Adidas Predator Elite – Louis Vuitton Concept",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -490,7 +490,7 @@
             },
 
             {
-                id: 62,
+                id: "G7",
                 nombre: "Adidas Predator Elite FT – ZZ30 · Zinedine Zidane",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -498,7 +498,7 @@
             },
 
             {
-                id: 63,
+                id: "G8",
                 nombre: "Adidas Predator Elite FT – Iron Metallic / Cloud White / Lucid Red",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -506,7 +506,7 @@
             },
 
             {
-                id: 64,
+                id: "G9",
                 nombre: "Adidas F50 Hyperfast TF – Cancha sintética",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -514,7 +514,7 @@
             },
 
             {
-                id: 65,
+                id: "G10",
                 nombre: "Nike Mercurial Vapor 17 Elite FG – Scorpion Pack",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -522,7 +522,7 @@
             },
 
             {
-                id: 66,
+                id: "G11",
                 nombre: "Nike Phantom 6 – Black Mamba x Kobe Bryant",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -530,7 +530,7 @@
             },
 
             {
-                id: 67,
+                id: "G12",
                 nombre: "Nike Tiempo Maestro Elite FG",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -538,7 +538,7 @@
             },
 
             {
-                id: 68,
+                id: "G13",
                 nombre: "Nike Air Zoom Mercurial Vapor",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -546,7 +546,7 @@
             },
 
             {
-                id: 69,
+                id: "G14",
                 nombre: "Adidas Predator Elite – David Beckham",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -554,7 +554,7 @@
             },
 
             {
-                id: 70,
+                id: "G15",
                 nombre: "Nike Mercurial CR7 – Edición especial · Cancha sintética",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -562,7 +562,7 @@
             },
 
             {
-                id: 71,
+                id: "G16",
                 nombre: "Adidas F50 – Cancha sintética",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -570,7 +570,7 @@
             },
 
             {
-                id: 72,
+                id: "G17",
                 nombre: "Nike Tiempo Maestro Elite FG",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -578,7 +578,7 @@
             },
 
             {
-                id: 73,
+                id: "G18",
                 nombre: "Nike Phantom 6 High Elite – EA SPORTS FC · FG",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -586,7 +586,7 @@
             },
 
             {
-                id: 74,
+                id: "G19",
                 nombre: "Adidas Predator League – Sin cordones · Cancha sintética",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -594,7 +594,7 @@
             },
 
             {
-                id: 75,
+                id: "G20",
                 nombre: "Adidas Predator – Cancha sintética · Gris y azul",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -602,7 +602,7 @@
             },
 
             {
-                id: 76,
+                id: "G21",
                 nombre: "Adidas F50 League TF – Cancha sintética",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -610,7 +610,7 @@
             },
 
             {
-                id: 77,
+                id: "G22",
                 nombre: "Adidas Predator League – Cancha sintética",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -618,7 +618,7 @@
             },
 
             {
-                id: 78,
+                id: "G23",
                 nombre: "Nike United Tiempo Maestro Elite",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -626,7 +626,7 @@
             },
 
             {
-                id: 79,
+                id: "G24",
                 nombre: "Adidas Predator League – Cancha sintética",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -634,7 +634,7 @@
             },
 
             {
-                id: 80,
+                id: "G25",
                 nombre: "Nike Phantom GX 6",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -642,7 +642,7 @@
             },
 
             {
-                id: 81,
+                id: "G26",
                 nombre: "Adidas Predator 26 Elite FT – Foldover Tongue · FG",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -650,7 +650,7 @@
             },
 
             {
-                id: 82,
+                id: "G27",
                 nombre: "Adidas Predator ZZ – Edición limitada Zinedine Zidane",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -658,7 +658,7 @@
             },
 
             {
-                id: 83,
+                id: "G28",
                 nombre: "Adidas Predator Elite Kaká FT FG",
                 categoria: "calzado",
                 subcategoria: "guayos",
@@ -670,7 +670,7 @@
         // =========================
 
         {
-            id: 84,
+            id: "T1",
             nombre: "New Balance 530",
             categoria: "calzado",
             subcategoria: "deportivos",
@@ -678,7 +678,7 @@
         },
 
         {
-            id: 85,
+            id: "T2",
             nombre: "On Cloudmonster",
             categoria: "calzado",
             subcategoria: "deportivos",
@@ -686,7 +686,7 @@
         },
 
         {
-            id: 86,
+            id: "T3",
             nombre: "Nike ZoomX – Negro",
             categoria: "calzado",
             subcategoria: "deportivos",
@@ -694,7 +694,7 @@
         },
 
         {
-            id: 87,
+            id: "T4",
             nombre: "Nike ZoomX – Mujer · Blanco y celeste",
             categoria: "calzado",
             subcategoria: "deportivos",
@@ -702,7 +702,7 @@
         },
 
         {
-            id: 88,
+            id: "T5",
             nombre: "Nike ZoomX – Mujer · Blanco y lila",
             categoria: "calzado",
             subcategoria: "deportivos",
@@ -710,7 +710,7 @@
         },
 
         {
-            id: 89,
+            id: "T6",
             nombre: "Nike ZoomX – Mujer · Beige, dorado y blanco",
             categoria: "calzado",
             subcategoria: "deportivos",
@@ -718,7 +718,7 @@
         },
 
         {
-            id: 90,
+            id: "T7",
             nombre: "Nike ZoomX – Lila · Swoosh oscuro",
             categoria: "calzado",
             subcategoria: "deportivos",
@@ -726,7 +726,7 @@
         },
 
         {
-            id: 91,
+            id: "T8",
             nombre: "Nike ZoomX – Lila",
             categoria: "calzado",
             subcategoria: "deportivos",
@@ -734,7 +734,7 @@
         },
 
         {
-            id: 92,
+            id: "T9",
             nombre: "Nike ZoomX – Negro",
             categoria: "calzado",
             subcategoria: "deportivos",
@@ -742,7 +742,7 @@
         },
 
         {
-            id: 93,
+            id: "T10",
             nombre: "Nike ZoomX Vomero Plus – Blanco y negro",
             categoria: "calzado",
             subcategoria: "deportivos",
@@ -750,7 +750,7 @@
         },
 
         {
-            id: 94,
+            id: "T11",
             nombre: "Nike ZoomX – Azul oscuro, blanco y rojo",
             categoria: "calzado",
             subcategoria: "deportivos",
@@ -758,7 +758,7 @@
         },
 
         {
-            id: 95,
+            id: "T12",
             nombre: "Nike ZoomX – Negro con detalles rojos",
             categoria: "calzado",
             subcategoria: "deportivos",
@@ -766,7 +766,7 @@
         },
 
         {
-            id: 96,
+            id: "T13",
             nombre: "Nike ZoomX – Gris oscuro",
             categoria: "calzado",
             subcategoria: "deportivos",
@@ -774,7 +774,7 @@
         },
 
         {
-            id: 97,
+            id: "T14",
             nombre: "Nike Initiator – Anthracite / Cool Grey",
             categoria: "calzado",
             subcategoria: "deportivos",
@@ -786,7 +786,7 @@
         // =========================
 
         {
-            id: 98,
+            id: "U1",
             nombre: "Paris Saint-Germain 2026/27 – Local",
             categoria: "ropa",
             subcategoria: "equipaciones",
@@ -794,7 +794,7 @@
         },
 
         {
-            id: 99,
+            id: "U2",
             nombre: "FC Barcelona 2026/27 – Local",
             categoria: "ropa",
             subcategoria: "equipaciones",
@@ -802,7 +802,7 @@
         },
 
         {
-            id: 100,
+            id: "U3",
             nombre: "Real Madrid 2026/27 – Local",
             categoria: "ropa",
             subcategoria: "equipaciones",
@@ -810,7 +810,7 @@
         },
 
         {
-            id: 101,
+            id: "U4",
             nombre: "Paris Saint-Germain 2025/26 – Local",
             categoria: "ropa",
             subcategoria: "equipaciones",
@@ -818,7 +818,7 @@
         },
 
         {
-            id: 102,
+            id: "U5",
             nombre: "Francia – Local · Mundial 2026",
             categoria: "ropa",
             subcategoria: "equipaciones",
@@ -826,7 +826,7 @@
         },
 
         {
-            id: 103,
+            id: "U6",
             nombre: "Manchester City 2026/27 – Local",
             categoria: "ropa",
             subcategoria: "equipaciones",
@@ -834,7 +834,7 @@
         },
 
         {
-            id: 104,
+            id: "U7",
             nombre: "Argentina Retro – Local",
             categoria: "ropa",
             subcategoria: "equipaciones",
@@ -842,7 +842,7 @@
         },
 
         {
-            id: 105,
+            id: "U8",
             nombre: "Argentina Retro 1986 – Local · Mundial de México",
             categoria: "ropa",
             subcategoria: "equipaciones",
@@ -850,7 +850,7 @@
         },
 
         {
-            id: 106,
+            id: "U9",
             nombre: "Arsenal FC 2026/27 – Local",
             categoria: "ropa",
             subcategoria: "equipaciones",
@@ -858,7 +858,7 @@
         },
 
         {
-            id: 107,
+            id: "U10",
             nombre: "Atlético de Madrid 2026/27 – Visitante",
             categoria: "ropa",
             subcategoria: "equipaciones",
@@ -866,7 +866,7 @@
         },
 
         {
-            id: 108,
+            id: "U11",
             nombre: "Chelsea FC 2026/27 – Visitante",
             categoria: "ropa",
             subcategoria: "equipaciones",
@@ -874,7 +874,7 @@
         },
 
         {
-            id: 109,
+            id: "U12",
             nombre: "FC Barcelona 2026/27 – Visitante · Edición Mamba",
             categoria: "ropa",
             subcategoria: "equipaciones",
@@ -882,7 +882,7 @@
         },
 
         {
-            id: 110,
+            id: "U13",
             nombre: "Borussia Dortmund 2026/27 – Local",
             categoria: "ropa",
             subcategoria: "equipaciones",
@@ -890,7 +890,7 @@
         },
 
         {
-            id: 111,
+            id: "U14",
             nombre: "River Plate 2026/27 – Local",
             categoria: "ropa",
             subcategoria: "equipaciones",
@@ -898,7 +898,7 @@
         },
 
         {
-            id: 112,
+            id: "U15",
             nombre: "FC Bayern München 2026/27 – Visitante",
             categoria: "ropa",
             subcategoria: "equipaciones",
@@ -906,7 +906,7 @@
         },
 
         {
-            id: 113,
+            id: "U16",
             nombre: "Argentina Retro – Local · Inspirado en 1996/97",
             categoria: "ropa",
             subcategoria: "equipaciones",
@@ -918,105 +918,105 @@
         // =========================
 
         {
-            id: 114,
+            id: "CD1",
             nombre: "Paris Saint-Germain x Jordan 2025/26 – Conjunto deportivo",
             categoria: "ropa",
             subcategoria: "conjuntos",
             imagen: "/imagenes/ropa/conjuntos/Conjuntos 1.jpg"
         },
         {
-            id: 115,
+            id: "CD2",
             nombre: "Manchester United – Conjunto deportivo azul con costuras rojas",
             categoria: "ropa",
             subcategoria: "conjuntos",
             imagen: "/imagenes/ropa/conjuntos/Conjuntos 2.jpg"
         },
         {
-            id: 116,
+            id: "CD3",
             nombre: "Alemania Retro Adidas – Conjunto deportivo negro",
             categoria: "ropa",
             subcategoria: "conjuntos",
             imagen: "/imagenes/ropa/conjuntos/Conjuntos 3.jpg"
         },
         {
-            id: 117,
+            id: "CD4",
             nombre: "FC Barcelona – Conjunto deportivo",
             categoria: "ropa",
             subcategoria: "conjuntos",
             imagen: "/imagenes/ropa/conjuntos/Conjuntos 4.jpg"
         },
         {
-            id: 118,
+            id: "CD5",
             nombre: "Real Madrid – Conjunto deportivo",
             categoria: "ropa",
             subcategoria: "conjuntos",
             imagen: "/imagenes/ropa/conjuntos/Conjuntos 5.jpg"
         },
         {
-            id: 119,
+            id: "CD6",
             nombre: "España Adidas – Conjunto deportivo",
             categoria: "ropa",
             subcategoria: "conjuntos",
             imagen: "/imagenes/ropa/conjuntos/Conjuntos 6.jpg"
         },
         {
-            id: 120,
+            id: "CD7",
             nombre: "Arsenal – Conjunto deportivo azul marino",
             categoria: "ropa",
             subcategoria: "conjuntos",
             imagen: "/imagenes/ropa/conjuntos/Conjuntos 7.jpg"
         },
         {
-            id: 121,
+            id: "CD8",
             nombre: "Real Madrid – Conjunto deportivo",
             categoria: "ropa",
             subcategoria: "conjuntos",
             imagen: "/imagenes/ropa/conjuntos/Conjuntos 8.jpg"
         },
         {
-            id: 122,
+            id: "CD9",
             nombre: "Boca Juniors – Conjunto deportivo azul y amarillo",
             categoria: "ropa",
             subcategoria: "conjuntos",
             imagen: "/imagenes/ropa/conjuntos/Conjuntos 9.jpg"
         },
         {
-            id: 123,
+            id: "CD10",
             nombre: "Francia FFF – Conjunto deportivo",
             categoria: "ropa",
             subcategoria: "conjuntos",
             imagen: "/imagenes/ropa/conjuntos/Conjuntos 10.jpg"
         },
         {
-            id: 124,
+            id: "CD11",
             nombre: "Inglaterra – Conjunto deportivo",
             categoria: "ropa",
             subcategoria: "conjuntos",
             imagen: "/imagenes/ropa/conjuntos/Conjuntos 11.jpg"
         },
         {
-            id: 125,
+            id: "CD12",
             nombre: "Real Madrid Retro Adidas – Conjunto deportivo",
             categoria: "ropa",
             subcategoria: "conjuntos",
             imagen: "/imagenes/ropa/conjuntos/Conjuntos 12.jpg"
         },
         {
-            id: 126,
+            id: "CD13",
             nombre: "AC Milan Puma – Conjunto deportivo",
             categoria: "ropa",
             subcategoria: "conjuntos",
             imagen: "/imagenes/ropa/conjuntos/Conjuntos 13.jpg"
         },
         {
-            id: 127,
+            id: "CD14",
             nombre: "Arsenal Adidas – Conjunto deportivo",
             categoria: "ropa",
             subcategoria: "conjuntos",
             imagen: "/imagenes/ropa/conjuntos/Conjuntos 14.jpg"
         },
         {
-            id: 128,
+            id: "CD15",
             nombre: "River Plate 1994 Retro Adidas Originals – Conjunto deportivo",
             categoria: "ropa",
             subcategoria: "conjuntos",
@@ -1028,7 +1028,7 @@
         // =========================
 
         {
-            id: 129,
+            id: "L1",
             nombre: "Gorras – Lifestyle",
             categoria: "accesorios",
             subcategoria: "lifestyle",
@@ -1041,7 +1041,7 @@
 
        
         {
-            id: 130,
+            id: "F1",
             nombre: "Golty Euforia 2.0 Professional",
             palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty",
             categoria: "accesorios",
@@ -1050,7 +1050,7 @@
         },
 
         {
-            id: 131,
+            id: "F2",
             nombre: "Golty El Dorado Professional",
             palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty",
             categoria: "accesorios",
@@ -1058,7 +1058,7 @@
             imagen: "/imagenes/accesorios/futbol/balones/Accesorios 21.JPG"
         },
         {
-            id: 132,
+            id: "F3",
             nombre: "Golty Origen Professional", 
             palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty",
             categoria: "accesorios",
@@ -1066,7 +1066,7 @@
             imagen: "/imagenes/accesorios/futbol/balones/Accesorios 22.JPG"
         },
         {
-            id: 133,
+            id: "F4",
             nombre: "Golty Fusión",
             palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty",
             categoria: "accesorios",
@@ -1074,7 +1074,7 @@
             imagen: "/imagenes/accesorios/futbol/balones/Accesorios 23.JPG"
         },
         {
-            id: 134,
+            id: "F5",
             nombre: "Golty Forza Professional",
             palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty", 
             categoria: "accesorios",
@@ -1082,7 +1082,7 @@
             imagen: "/imagenes/accesorios/futbol/balones/Accesorios 24.JPG"
         },
         {
-            id: 135,
+            id: "F6",
             nombre: "Golty Invictus Professional", 
             palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty",
             categoria: "accesorios",
@@ -1090,7 +1090,7 @@
             imagen: "/imagenes/accesorios/futbol/balones/Accesorios 25.JPG"
         },
         {
-            id: 136,
+            id: "F7",
             nombre: "Golty Traditional Professional", 
             palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty",
             categoria: "accesorios",
@@ -1098,7 +1098,7 @@
             imagen: "/imagenes/accesorios/futbol/balones/Accesorios 26.JPG"
         },
         {
-            id: 137,
+            id: "F8",
             nombre: "Golty Latir – Rosa",
             palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty",
             categoria: "accesorios",
@@ -1106,7 +1106,7 @@
             imagen: "/imagenes/accesorios/futbol/balones/Accesorios 27.JPG"
         },
         {
-            id: 138,
+            id: "F9",
             nombre: "Golty Latir – Azul y amarillo",
             palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty",
             categoria: "accesorios",
@@ -1114,7 +1114,7 @@
             imagen: "/imagenes/accesorios/futbol/balones/Accesorios 28.JPG"
         },
         {
-            id: 139,
+            id: "F10",
             nombre: "Golty Latir – Blanco y dorado",
             palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty",
             categoria: "accesorios",
@@ -1122,7 +1122,7 @@
             imagen: "/imagenes/accesorios/futbol/balones/Accesorios 29.JPG"
         },
         {
-            id: 140,
+            id: "F11",
             nombre: "Golty Latir – Multicolor",
             palabrasClave: "balón balon de fútbol futbol pelota balón deportivo balon profesional golty",
             categoria: "accesorios",
@@ -1135,7 +1135,7 @@
         // =========================
 
         {
-            id: 141,
+            id: "F12",
             nombre: "Adidas Predator – Guantes de arquero azul y blanco",
             categoria: "accesorios",
             subcategoria: "futbol",
@@ -1143,7 +1143,7 @@
         },
 
         {
-            id: 142,
+            id: "F13",
             nombre: "Puma – Guantes de arquero verde y turquesa",
             categoria: "accesorios",
             subcategoria: "futbol",
@@ -1151,7 +1151,7 @@
         },
 
         {
-            id: 143,
+            id: "F14",
             nombre: "Adidas Predator – Guantes de arquero celeste y blanco",
             categoria: "accesorios",
             subcategoria: "futbol",
@@ -1159,7 +1159,7 @@
         },
 
         {
-            id: 144,
+            id: "F15",
             nombre: "Adidas Predator – Guantes de arquero amarillo y negro",
             categoria: "accesorios",
             subcategoria: "futbol",
@@ -1167,7 +1167,7 @@
         },
 
         {
-            id: 145,
+            id: "F16",
             nombre: "Adidas Predator – Guantes de arquero negro y rosa",
             categoria: "accesorios",
             subcategoria: "futbol",
@@ -1175,7 +1175,7 @@
         },
 
         {
-            id: 146,
+            id: "F17",
             nombre: "Adidas Predator – Guantes de arquero blancos",
             categoria: "accesorios",
             subcategoria: "futbol",
@@ -1183,7 +1183,7 @@
         },
 
         {
-            id: 147,
+            id: "F18",
             nombre: "Adidas – Guantes de arquero negros",
             categoria: "accesorios",
             subcategoria: "futbol",
@@ -1191,7 +1191,7 @@
         },
 
         {
-            id: 148,
+            id: "F19",
             nombre: "Reusch – Guantes de arquero negro y azul",
             categoria: "accesorios",
             subcategoria: "futbol",
@@ -1199,7 +1199,7 @@
         },
 
         {
-            id: 149,
+            id: "F20",
             nombre: "Guantes de arquero – Negro y gris",
             categoria: "accesorios",
             subcategoria: "futbol",
@@ -1207,7 +1207,7 @@
         },
 
         {
-            id: 150,
+            id: "F21",
             nombre: "Guantes de arquero – Verde y naranja",
             categoria: "accesorios",
             subcategoria: "futbol",
@@ -1215,7 +1215,7 @@
         },
 
         {
-            id: 151,
+            id: "F22",
             nombre: "Guantes de arquero – Blanco y verde",
             categoria: "accesorios",
             subcategoria: "futbol",
@@ -1223,7 +1223,7 @@
         },
 
         {
-            id: 152,
+            id: "F23",
             nombre: "Adidas Predator – Guantes de arquero verde y negro",
             categoria: "accesorios",
             subcategoria: "futbol",
@@ -1231,7 +1231,7 @@
         },
 
         {
-            id: 153,
+            id: "F24",
             nombre: "Adidas – Guantes de arquero blanco, azul y naranja",
             categoria: "accesorios",
             subcategoria: "futbol",
@@ -1239,7 +1239,7 @@
         },
 
         {
-            id: 154,
+            id: "F25",
             nombre: "Adidas – Guantes de arquero naranja y negro",
             categoria: "accesorios",
             subcategoria: "futbol",
@@ -1247,7 +1247,7 @@
         },
 
         {
-            id: 155,
+            id: "F26",
             nombre: "Guantes de arquero – Negro",
             categoria: "accesorios",
             subcategoria: "futbol",
@@ -1259,21 +1259,21 @@
         // =========================
 
         {
-            id: 156,
+            id: "F27",
             nombre: "Espinilleras de fútbol – Diseños variados",
             categoria: "accesorios",
             subcategoria: "futbol",
             imagen: "/imagenes/accesorios/futbol/espinilleras/Accesorios 2.JPG"
         },
         {
-            id: 157,
+            id: "F28",
             nombre: "Espinilleras de fútbol – Diseños variados",
             categoria: "accesorios",
             subcategoria: "futbol",
             imagen: "/imagenes/accesorios/futbol/espinilleras/Accesorios 3.JPG"
         },
         {
-            id: 158,
+            id: "F29",
             nombre: "Espinilleras de fútbol – Diseños variados",
             categoria: "accesorios",
             subcategoria: "futbol",
