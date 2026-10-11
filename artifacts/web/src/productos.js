@@ -392,6 +392,77 @@
             subcategoria: "clubes",
             imagen: "/imagenes/camisetas/clubes/Camiseta50.jpg"
         },
+        {
+            id: "C54",
+            nombre: "Real Madrid 2026/27 – Local",
+            categoria: "camisetas",
+            subcategoria: "clubes",
+            imagen: "/imagenes/camisetas/clubes/Camiseta56.jpg"
+        },
+
+        {
+            id: "C55",
+            nombre: "FC Barcelona 2026/27 – Tercera",
+            categoria: "camisetas",
+            subcategoria: "clubes",
+            imagen: "/imagenes/camisetas/clubes/Camiseta57.jpg"
+        },
+
+        {
+            id: "C56",
+            nombre: "Paris Saint-Germain – Dri-FIT Pre-Match",
+            categoria: "camisetas",
+            subcategoria: "clubes",
+            imagen: "/imagenes/camisetas/clubes/Camiseta58.jpg"
+        },
+
+        {
+            id: "C57",
+            nombre: "AC Milan 2026/27 – Visitante",
+            categoria: "camisetas",
+            subcategoria: "clubes",
+            imagen: "/imagenes/camisetas/clubes/Camiseta59.jpg"
+        },
+
+        {
+            id: "C58",
+            nombre: "Real Madrid 2026/27 – Tercera",
+            categoria: "camisetas",
+            subcategoria: "clubes",
+            imagen: "/imagenes/camisetas/clubes/Camiseta60.jpg"
+        },
+
+        {
+            id: "C59",
+            nombre: "Arsenal FC 2026/27 – Local",
+            categoria: "camisetas",
+            subcategoria: "clubes",
+            imagen: "/imagenes/camisetas/clubes/Camiseta61.jpg"
+        },
+
+        {
+            id: "C60",
+            nombre: "Paris Saint-Germain 2026 – Stadium Night Edition",
+            categoria: "camisetas",
+            subcategoria: "clubes",
+            imagen: "/imagenes/camisetas/clubes/Camiseta62.jpg"
+        },
+
+        {
+            id: "C61",
+            nombre: "Santos FC 2025/26 – Local",
+            categoria: "camisetas",
+            subcategoria: "clubes",
+            imagen: "/imagenes/camisetas/clubes/Camiseta63.jpg"
+        },
+
+        {
+            id: "C62",
+            nombre: "FC Bayern München 2026/27 – Visitante",
+            categoria: "camisetas",
+            subcategoria: "clubes",
+            imagen: "/imagenes/camisetas/clubes/Camiseta64.jpg"
+        },
 
         // =========================
         // CAMISETAS DE SELECCIONES
