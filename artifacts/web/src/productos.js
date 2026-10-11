@@ -1278,7 +1278,7 @@
             categoria: "accesorios",
             subcategoria: "futbol",
             imagen: "/imagenes/accesorios/futbol/espinilleras/Accesorios 4.JPG"
-        },,
+        },
 
         // =========================
     // CALZADO - TENIS CASUALES
