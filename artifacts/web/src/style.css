@@ -499,7 +499,10 @@ nav a:hover {
 
 /* 12. TARJETAS DE PRODUCTOS */
 
+
 .producto {
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
     border: 1px solid #d8d8d8;
     border-radius: 12px;
@@ -528,7 +531,11 @@ nav a:hover {
     object-fit: contain;
 }
 
+
 .producto-info {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     padding: 25px;
 }
 
@@ -540,8 +547,10 @@ nav a:hover {
 }
 
 .producto h3 {
+    min-height: 2.4em;
     margin: 5px 0 12px;
     font-size: 21px;
+    line-height: 1.2;
 }
 
 .precio {
@@ -552,6 +561,7 @@ nav a:hover {
 
 .boton-producto {
     width: 100%;
+    margin-top: auto;
     text-align: center;
 }
 
