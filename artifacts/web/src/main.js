@@ -65,7 +65,7 @@ function crearTarjetaProducto(producto, mostrarCategoria = true) {
     const nombresCategorias = {
         camisetas: 'Camisetas de fútbol',
         calzado: 'Calzado',
-        ropa: 'Ropa deportiva',
+        ropa: 'Ropa deportiva y casual',
         accesorios: 'Accesorios deportivos'
     };
 
@@ -248,33 +248,30 @@ if (contenedorProductos) {
     }
 
     // Filtros de las categorías.
-    botonesFiltro.forEach(boton => {
-        boton.addEventListener('click', () => {
-            botonesFiltro.forEach(b => {
-                b.classList.remove('activo');
-            });
+   botonesFiltro.forEach(boton => {
+    boton.addEventListener('click', () => {
+        botonesFiltro.forEach(b => b.classList.remove('activo'));
+        boton.classList.add('activo');
 
-            boton.classList.add('activo');
+        const filtro = normalizarTexto(boton.textContent);
 
-            const filtro = normalizarTexto(boton.textContent);
+        const filtrosSubcategoria = {
+            'equipaciones': 'equipaciones',
+            'conjuntos': 'conjuntos',
+            'camisas casuales': 'camisas-casuales',
+            'pantalonetas': 'pantalonetas',
+            'sudaderas y pantalones': 'sudaderas-pantalones'
+        };
 
-            if (filtro === 'todas' || filtro === 'todos') {
-                subcategoriaActual = '';
-            } else if (filtro === 'futbol') {
-                subcategoriaActual = 'futbol';
-            } else if (
-                filtro === 'tenis casuales' ||
-                filtro === 'tenis casual' ||
-                filtro === 'casual'
-            ) {
-                subcategoriaActual = 'casual';
-            } else {
-                subcategoriaActual = filtro;
-            }
+        if (filtro === 'todas' || filtro === 'todos') {
+            subcategoriaActual = '';
+        } else {
+            subcategoriaActual = filtrosSubcategoria[filtro] || filtro;
+        }
 
-            mostrarProductos();
-        });
+        mostrarProductos();
     });
+});
 
     // Muestra los productos al entrar en la página.
     mostrarProductos();
