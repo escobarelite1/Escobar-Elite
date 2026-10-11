@@ -6,83 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>ESCOBAR ÉLITE | Catálogo deportivo</title>
-
     <link rel="stylesheet" href="/src/style.css">
+    <link rel="icon" type="image/png" href="/Favicon.png">
+
 </head>
 
 <body>
 
-    <!-- ENCABEZADO -->
-    <header>
+<!-- ENCABEZADO -->
+    
+<header>
+    <div class="logo">    
+        <img src="/imagenes/logo/Logo.png" alt="ESCOBAR ELITE">
+    </div>
+    
+    <nav>
+        <a href="#categorias">Categorías</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+</header>
 
-        <div class="logo">
-            <img src="/imagenes/logo/Logo.png" alt="ESCOBAR ELITE">
-        </div>
 
-        <nav>
-            <a href="#categorias">Categorías</a>
-            <a href="contacto.html">Contacto</a>
-        </nav>
-
-    </header>
-
-
-    <!-- INICIO -->
-    <main>
-
+<!-- INICIO -->
+    
+    <main>     
         <section id="inicio" class="hero">
-
+            
             <div class="hero-contenido">
-
+                
                 <h1>
                     Tu pasión por el deporte, tu estilo
                 </h1>
-
+                
                 <p>
                     Descubre camisetas, calzado, ropa y accesorios deportivos
                     y consulta su disponibilidad directamente por WhatsApp.
                 </p>
-
+                
                 <a href="#categorias" class="boton">
                     Explorar categorías
                 </a>
+            
+            </div>
+        
+        </section>
 
+
+<!-- BUSCADOR -->
+        
+        <section class="buscador-inicio">
+            
+            <div class="buscador">
+                
+                <span class="icono-busqueda">
+                    ⌕
+                </span>
+                
+                <input
+                    type="text"
+                    placeholder="Buscar en todo el catálogo..."
+                    aria-label="Buscar en todo el catálogo"
+                    >
             </div>
 
-            </section>
+        </section>
 
 
-            <!-- BUSCADOR -->
-            <section class="buscador-inicio">
-
-                <div class="buscador">
-
-                    <span class="icono-busqueda">⌕</span>
-
-                    <input
-                        type="text"
-                        placeholder="Buscar en todo el catálogo..."
-                        aria-label="Buscar en todo el catálogo"
-                    >
-
-                </div>
-
-                </section>
-
-
-
-                
 <!-- RESULTADOS DE BÚSQUEDA -->
-<section class="resultados-inicio"></section>
+        
+        <section class="resultados-inicio">
+            
+        </section>
 
 
-        <!-- AYUDA PARA ENCONTRAR PRODUCTOS -->
+<!-- AYUDA PARA ENCONTRAR PRODUCTOS -->
+        
         <section class="ayuda-catalogo">
-
+            
             <h3>
                 ¿No encuentras lo que buscas?
             </h3>
-
+            
             <p>
                 Escríbenos por WhatsApp. Podemos consultar si el producto que buscas está disponible o si existe alguna otra opción disponible.
             </p>
@@ -98,9 +102,10 @@
         </section>
 
 
-                    <!-- CATEGORÍAS -->
-                    <section id="categorias" class="seccion">
-
+<!-- CATEGORÍAS -->
+        
+        <section id="categorias" class="seccion">
+            
             <h2>
                 Explora nuestras categorías
             </h2>
@@ -108,16 +113,18 @@
             <p class="subtitulo">
                 Encuentra camisetas, calzado, ropa y accesorios para tu pasión por el deporte.
             </p>
-
-
+            
             <div class="categorias">
 
 
-                <!-- CATEGORÍA 1 -->
+    <!-- CATEGORÍA 1 -->
+                
                 <a href="camisetas.html" class="categoria">
-
+                    
                     <div class="icono-categoria">
+                        
                         <img src="/imagenes/iconos/IconoCamiseta.png" alt="Camisetas de fútbol">
+                    
                     </div>
 
                     <h3>
@@ -127,15 +134,18 @@
                     <p>
                         Clubes y selecciones.
                     </p>
-
+                
                 </a>
 
 
-                <!-- CATEGORÍA 2 -->
+    <!-- CATEGORÍA 2 -->
+                
                 <a href="calzado.html" class="categoria">
-
+                    
                     <div class="icono-categoria">
+                        
                         <img src="/imagenes/iconos/IconoCalzado.png" alt="Calzado deportivo">
+                    
                     </div>
 
                     <h3>
@@ -145,15 +155,18 @@
                     <p>
                         Fútbol, deportivo y casual.
                     </p>
-
+                
                 </a>
 
 
-                <!-- CATEGORÍA 3 -->
+    <!-- CATEGORÍA 3 -->
+                
                 <a href="ropa.html" class="categoria">
 
                     <div class="icono-categoria">
+                        
                         <img src="/imagenes/iconos/IconoRopa.png" alt="Ropa deportiva">
+                    
                     </div>
 
                     <h3>
@@ -167,11 +180,14 @@
                 </a>
 
 
-                <!-- CATEGORÍA 4 -->
+    <!-- CATEGORÍA 4 -->
+                
                 <a href="accesorios.html" class="categoria">
 
                     <div class="icono-categoria">
+                        
                         <img src="/imagenes/iconos/LogoAccesorios.png" alt="Accesorios deportivos">
+                    
                     </div>
 
                     <h3>
@@ -183,21 +199,22 @@
                     </p>
 
                 </a>
-
+            
             </div>
-
+        
         </section>
 
 
-        <!-- INFORMACIÓN -->
+<!-- INFORMACIÓN -->
+        
         <section class="informacion">
-
+            
             <h2>
                 ¿Cómo funciona?
             </h2>
-
+            
             <div class="pasos">
-
+                
                 <div class="paso">
                     <span>1</span>
                     <h3>Explora</h3>
@@ -206,7 +223,7 @@
                         el producto que te interesa.
                     </p>
                 </div>
-
+                
                 <div class="paso">
                     <span>2</span>
                     <h3>Consulta</h3>
@@ -223,40 +240,40 @@
                         Verificamos el producto y te confirmamos
                         disponibilidad, tallas y detalles.
                     </p>
+                
                 </div>
-
+            
             </div>
 
         </section>
-
+        
         <section class="informacion compra">
-
+            
             <h2>Información de compra</h2>
-
+            
             <p class="subtitulo">
                 Todo lo que necesitas saber antes de realizar tu compra.
             </p>
-
+            
             <div class="info-compra">
-
+                
                 <div class="info-compra-item">
-
+                    
                     <div class="info-compra-icono">
                         <img src="/imagenes/iconos/IconoPagos.png" alt="Métodos de pago">
                     </div>
-
+                    
                     <h3>Métodos de pago</h3>
 
                     <p>
                         Realiza tu pago mediante transferencia bancaria.
                         Los medios disponibles se confirman al momento de realizar la compra.
                     </p>
-
+                
                 </div>
-
-
+                
                 <div class="info-compra-item">
-
+                    
                     <div class="info-compra-icono">
                         <img src="/imagenes/iconos/IconoEnvios.png" alt="Envíos nacionales">
                     </div>
@@ -267,10 +284,9 @@
                         Realizamos envíos a diferentes ciudades de Colombia.
                         El costo del envío corre por cuenta del cliente y se confirma al momento de realizar la compra.
                     </p>
-
+                
                 </div>
-
-
+                
                 <div class="info-compra-item">
 
                     <div class="info-compra-icono">
@@ -285,8 +301,7 @@
                     </p>
 
                 </div>
-
-
+                
                 <div class="info-compra-item">
 
                     <div class="info-compra-icono">
@@ -299,7 +314,7 @@
                         Consulta disponibilidad, tallas, métodos de pago y detalles del envío
                         directamente por WhatsApp.
                     </p>
-
+                    
                     <a
                         href="https://wa.me/573018864753"
                         class="boton"
@@ -313,17 +328,18 @@
             </div>
 
         </section>
-
+    
     </main>
 
 
-    <!-- PIE DE PÁGINA -->
+<!-- PIE DE PÁGINA -->
+    
     <footer id="contacto">
-
+        
         <div class="footer-contenido">
-
+            
             <div class="footer-marca">
-
+                
                 <h3>
                     ESCOBAR ÉLITE
                 </h3>
@@ -331,10 +347,9 @@
                 <p>
                     Tu pasión por el deporte, tu estilo.
                 </p>
-
+            
             </div>
-
-
+            
             <div class="footer-columna">
 
                 <h4>
@@ -350,8 +365,7 @@
                 </a>
 
             </div>
-
-
+            
             <div class="footer-columna">
 
                 <h4>
@@ -359,7 +373,7 @@
                 </h4>
 
                 <div class="footer-redes">
-
+                    
                     <a
                         href="https://www.instagram.com/escobarelitefc/"
                         target="_blank"
@@ -389,8 +403,7 @@
             </div>
 
         </div>
-
-
+        
         <div class="footer-inferior">
 
             <p class="copyright">
@@ -400,8 +413,7 @@
         </div>
 
     </footer>
-
-
+    
     <script type="module" src="/src/main.js"></script>
 
 </body>
